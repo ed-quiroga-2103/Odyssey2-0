@@ -1,0 +1,58 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/eduardo/Documents/Coding stuff/C++/XMLManager/main.cpp
+iostream
+-
+
+/home/eduardo/Documents/Coding stuff/C++/XMLManager/pugiconfig.hpp
+
+/home/eduardo/Documents/Coding stuff/C++/XMLManager/pugixml.cpp
+pugixml.hpp
+/home/eduardo/Documents/Coding stuff/C++/XMLManager/pugixml.hpp
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+assert.h
+-
+limits.h
+-
+wchar.h
+-
+math.h
+-
+float.h
+-
+istream
+-
+ostream
+-
+string
+-
+new
+-
+stdint.h
+-
+
+/home/eduardo/Documents/Coding stuff/C++/XMLManager/pugixml.hpp
+pugiconfig.hpp
+/home/eduardo/Documents/Coding stuff/C++/XMLManager/pugiconfig.hpp
+stddef.h
+-
+exception
+-
+iterator
+-
+iosfwd
+-
+string
+-
+
