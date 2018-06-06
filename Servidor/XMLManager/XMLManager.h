@@ -9,9 +9,15 @@
 #include "string"
 
 class XMLManager {
+private:
+
+    pugi::xml_node getNotifications();
+    pugi::xml_node getFriends();
+
 public:
     //Creating documents
     XMLDoc* newXMLDoc(int opnum, string CDATA);
+    XMLDoc* logInResponse(bool confirm, string username);
     void saveXML(XMLDoc doc, string name);
 
     //Parsing documents

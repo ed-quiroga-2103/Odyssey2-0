@@ -1,3 +1,0 @@
-/home/eduardo/Documents/Coding stuff/C++/XMLManager/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/rebuild_cache.dir
-/home/eduardo/Documents/Coding stuff/C++/XMLManager/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/edit_cache.dir
-/home/eduardo/Documents/Coding stuff/C++/XMLManager/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_62f6e.dir

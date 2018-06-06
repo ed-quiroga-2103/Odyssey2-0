@@ -6,33 +6,37 @@
 
 #IncludeRegexTransform: 
 
-/home/eduardo/Documents/Coding stuff/C++/XMLManager/XMLManager.cpp
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLManager.cpp
 XMLManager.h
-/home/eduardo/Documents/Coding stuff/C++/XMLManager/XMLManager.h
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLManager.h
 
-/home/eduardo/Documents/Coding stuff/C++/XMLManager/XMLManager.h
-
-/home/eduardo/Documents/Coding stuff/C++/XMLManager/XMLParts.cpp
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLManager.h
 XMLParts.h
-/home/eduardo/Documents/Coding stuff/C++/XMLManager/XMLParts.h
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLParts.h
+string
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/string
+
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLParts.cpp
+XMLParts.h
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLParts.h
 iostream
 -
 sstream
 -
 XMLParts.h
-/home/eduardo/Documents/Coding stuff/C++/XMLManager/XMLParts.h
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLParts.h
 pugixml.hpp
-/home/eduardo/Documents/Coding stuff/C++/XMLManager/pugixml.hpp
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/pugixml.hpp
 string
-/home/eduardo/Documents/Coding stuff/C++/XMLManager/string
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/string
 
-/home/eduardo/Documents/Coding stuff/C++/XMLManager/XMLParts.h
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLParts.h
 pugixml.hpp
-/home/eduardo/Documents/Coding stuff/C++/XMLManager/pugixml.hpp
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/pugixml.hpp
 string
-/home/eduardo/Documents/Coding stuff/C++/XMLManager/string
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/string
 
-/home/eduardo/Documents/Coding stuff/C++/XMLManager/main.cpp
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/main.cpp
 iostream
 -
 QtCore/QCoreApplication
@@ -46,13 +50,15 @@ QDebug
 QDomDocument
 -
 XMLParts.h
-/home/eduardo/Documents/Coding stuff/C++/XMLManager/XMLParts.h
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLParts.h
+XMLManager.h
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLManager.h
 
-/home/eduardo/Documents/Coding stuff/C++/XMLManager/pugiconfig.hpp
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/pugiconfig.hpp
 
-/home/eduardo/Documents/Coding stuff/C++/XMLManager/pugixml.cpp
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/pugixml.cpp
 pugixml.hpp
-/home/eduardo/Documents/Coding stuff/C++/XMLManager/pugixml.hpp
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/pugixml.hpp
 stdlib.h
 -
 stdio.h
@@ -80,9 +86,9 @@ new
 stdint.h
 -
 
-/home/eduardo/Documents/Coding stuff/C++/XMLManager/pugixml.hpp
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/pugixml.hpp
 pugiconfig.hpp
-/home/eduardo/Documents/Coding stuff/C++/XMLManager/pugiconfig.hpp
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/pugiconfig.hpp
 stddef.h
 -
 exception

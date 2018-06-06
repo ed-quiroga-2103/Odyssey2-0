@@ -3,12 +3,16 @@
 
 CMakeFiles/XMLManager.dir/XMLManager.cpp.o: ../XMLManager.cpp
 CMakeFiles/XMLManager.dir/XMLManager.cpp.o: ../XMLManager.h
+CMakeFiles/XMLManager.dir/XMLManager.cpp.o: ../XMLParts.h
+CMakeFiles/XMLManager.dir/XMLManager.cpp.o: ../pugiconfig.hpp
+CMakeFiles/XMLManager.dir/XMLManager.cpp.o: ../pugixml.hpp
 
 CMakeFiles/XMLManager.dir/XMLParts.cpp.o: ../XMLParts.cpp
 CMakeFiles/XMLManager.dir/XMLParts.cpp.o: ../XMLParts.h
 CMakeFiles/XMLManager.dir/XMLParts.cpp.o: ../pugiconfig.hpp
 CMakeFiles/XMLManager.dir/XMLParts.cpp.o: ../pugixml.hpp
 
+CMakeFiles/XMLManager.dir/main.cpp.o: ../XMLManager.h
 CMakeFiles/XMLManager.dir/main.cpp.o: ../XMLParts.h
 CMakeFiles/XMLManager.dir/main.cpp.o: ../main.cpp
 CMakeFiles/XMLManager.dir/main.cpp.o: ../pugiconfig.hpp

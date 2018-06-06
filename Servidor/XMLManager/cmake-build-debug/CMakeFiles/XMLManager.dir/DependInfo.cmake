@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/eduardo/Documents/Coding stuff/C++/XMLManager/XMLManager.cpp" "/home/eduardo/Documents/Coding stuff/C++/XMLManager/cmake-build-debug/CMakeFiles/XMLManager.dir/XMLManager.cpp.o"
-  "/home/eduardo/Documents/Coding stuff/C++/XMLManager/XMLParts.cpp" "/home/eduardo/Documents/Coding stuff/C++/XMLManager/cmake-build-debug/CMakeFiles/XMLManager.dir/XMLParts.cpp.o"
-  "/home/eduardo/Documents/Coding stuff/C++/XMLManager/main.cpp" "/home/eduardo/Documents/Coding stuff/C++/XMLManager/cmake-build-debug/CMakeFiles/XMLManager.dir/main.cpp.o"
-  "/home/eduardo/Documents/Coding stuff/C++/XMLManager/pugixml.cpp" "/home/eduardo/Documents/Coding stuff/C++/XMLManager/cmake-build-debug/CMakeFiles/XMLManager.dir/pugixml.cpp.o"
+  "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLManager.cpp" "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug/CMakeFiles/XMLManager.dir/XMLManager.cpp.o"
+  "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLParts.cpp" "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug/CMakeFiles/XMLManager.dir/XMLParts.cpp.o"
+  "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/main.cpp" "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug/CMakeFiles/XMLManager.dir/main.cpp.o"
+  "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/pugixml.cpp" "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug/CMakeFiles/XMLManager.dir/pugixml.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

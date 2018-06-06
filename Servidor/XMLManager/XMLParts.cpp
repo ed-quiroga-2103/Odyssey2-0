@@ -10,20 +10,36 @@
 #include "pugixml.hpp"
 #include "string"
 
-XMLDoc::XMLDoc(string rootStr){
+XMLDoc::XMLDoc(string rootStr) {
 
     pugi::xml_node root = this->append_child(rootStr.c_str());
     rootNode = rootStr;
 }
 
-//Metodo root
-
-void XMLDoc::newChild(string dataName, string data) {
+pugi::xml_node XMLDoc::newChild(string dataName, string data) {
 
     pugi::xml_node parent = this->child(rootNode.c_str());
     pugi::xml_node child = parent.append_child(dataName.c_str());
     child.append_child(pugi::node_pcdata).set_value(data.c_str());
 
+    return child;
+
+}
+pugi::xml_node XMLDoc::newChild(string dataName, int data) {
+
+    pugi::xml_node parent = this->child(rootNode.c_str());
+    pugi::xml_node child = parent.append_child(dataName.c_str());
+    child.append_child(pugi::node_pcdata).set_value(std::to_string(data).c_str());
+
+    return child;
+
+}
+pugi::xml_node XMLDoc::newChild(string dataName) {
+
+    pugi::xml_node parent = this->child(rootNode.c_str());
+    pugi::xml_node child = parent.append_child(dataName.c_str());
+
+    return child;
 
 }
 
@@ -41,8 +57,7 @@ string XMLDoc::toString() {
 
 }
 
-string XMLDoc::remove_extra_whitespaces(string a)
-{
+string XMLDoc::remove_extra_whitespaces(string a) {
     string tab = "\t";
     string line = "\n";
 

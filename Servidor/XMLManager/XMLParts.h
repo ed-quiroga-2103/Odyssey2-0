@@ -30,11 +30,14 @@ private:
 
 public:
     XMLDoc(string root);
-    void newChild(string dataName,string data);
+    pugi::xml_node newChild(string dataName,string data);
+    pugi::xml_node newChild(string dataName,int data);
+    pugi::xml_node newChild(string dataName);
     void saveXML(string name);
     string toString();
     string remove_extra_whitespaces(string a);
 
 };
+
 
 #endif //XMLMANAGER_XMLPARTS_H

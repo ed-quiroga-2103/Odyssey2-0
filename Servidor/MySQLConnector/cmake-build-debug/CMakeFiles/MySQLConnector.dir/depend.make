@@ -1,2 +1,2 @@
-# Empty dependencies file for cmTC_62f6e.
+# Empty dependencies file for MySQLConnector.
 # This may be replaced when dependencies are built.

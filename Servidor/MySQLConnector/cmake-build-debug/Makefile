@@ -23,9 +23,6 @@ SUFFIXES =
 .SUFFIXES: .hpux_make_needs_suffix_list
 
 
-# Produce verbose output by default.
-VERBOSE = 1
-
 # Suppress display of executed commands.
 $(VERBOSE).SILENT:
 
@@ -51,17 +48,17 @@ RM = /home/eduardo/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/eduardo/Documents/Coding stuff/C++/XMLManager/cmake-build-debug/CMakeFiles/CMakeTmp"
+CMAKE_SOURCE_DIR = "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/MySQLConnector"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/eduardo/Documents/Coding stuff/C++/XMLManager/cmake-build-debug/CMakeFiles/CMakeTmp"
+CMAKE_BINARY_DIR = "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/MySQLConnector/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
-	@echo "Running CMake to regenerate build system..."
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
 	/home/eduardo/clion-2017.3.3/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
@@ -72,7 +69,7 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@echo "No interactive CMake dialog available..."
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
 	/home/eduardo/clion-2017.3.3/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
@@ -83,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/eduardo/Documents/Coding stuff/C++/XMLManager/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles" "/home/eduardo/Documents/Coding stuff/C++/XMLManager/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/MySQLConnector/cmake-build-debug/CMakeFiles" "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/MySQLConnector/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/eduardo/Documents/Coding stuff/C++/XMLManager/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/MySQLConnector/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -114,44 +111,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named cmTC_62f6e
+# Target rules for targets named MySQLConnector
 
 # Build rule for target.
-cmTC_62f6e: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 cmTC_62f6e
-.PHONY : cmTC_62f6e
+MySQLConnector: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 MySQLConnector
+.PHONY : MySQLConnector
 
 # fast build rule for target.
-cmTC_62f6e/fast:
-	$(MAKE) -f CMakeFiles/cmTC_62f6e.dir/build.make CMakeFiles/cmTC_62f6e.dir/build
-.PHONY : cmTC_62f6e/fast
+MySQLConnector/fast:
+	$(MAKE) -f CMakeFiles/MySQLConnector.dir/build.make CMakeFiles/MySQLConnector.dir/build
+.PHONY : MySQLConnector/fast
 
-CheckSymbolExists.o: CheckSymbolExists.cxx.o
+MySQLConnector.o: MySQLConnector.cpp.o
 
-.PHONY : CheckSymbolExists.o
+.PHONY : MySQLConnector.o
 
 # target to build an object file
-CheckSymbolExists.cxx.o:
-	$(MAKE) -f CMakeFiles/cmTC_62f6e.dir/build.make CMakeFiles/cmTC_62f6e.dir/CheckSymbolExists.cxx.o
-.PHONY : CheckSymbolExists.cxx.o
+MySQLConnector.cpp.o:
+	$(MAKE) -f CMakeFiles/MySQLConnector.dir/build.make CMakeFiles/MySQLConnector.dir/MySQLConnector.cpp.o
+.PHONY : MySQLConnector.cpp.o
 
-CheckSymbolExists.i: CheckSymbolExists.cxx.i
+MySQLConnector.i: MySQLConnector.cpp.i
 
-.PHONY : CheckSymbolExists.i
+.PHONY : MySQLConnector.i
 
 # target to preprocess a source file
-CheckSymbolExists.cxx.i:
-	$(MAKE) -f CMakeFiles/cmTC_62f6e.dir/build.make CMakeFiles/cmTC_62f6e.dir/CheckSymbolExists.cxx.i
-.PHONY : CheckSymbolExists.cxx.i
+MySQLConnector.cpp.i:
+	$(MAKE) -f CMakeFiles/MySQLConnector.dir/build.make CMakeFiles/MySQLConnector.dir/MySQLConnector.cpp.i
+.PHONY : MySQLConnector.cpp.i
 
-CheckSymbolExists.s: CheckSymbolExists.cxx.s
+MySQLConnector.s: MySQLConnector.cpp.s
 
-.PHONY : CheckSymbolExists.s
+.PHONY : MySQLConnector.s
 
 # target to generate assembly for a file
-CheckSymbolExists.cxx.s:
-	$(MAKE) -f CMakeFiles/cmTC_62f6e.dir/build.make CMakeFiles/cmTC_62f6e.dir/CheckSymbolExists.cxx.s
-.PHONY : CheckSymbolExists.cxx.s
+MySQLConnector.cpp.s:
+	$(MAKE) -f CMakeFiles/MySQLConnector.dir/build.make CMakeFiles/MySQLConnector.dir/MySQLConnector.cpp.s
+.PHONY : MySQLConnector.cpp.s
+
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/MySQLConnector.dir/build.make CMakeFiles/MySQLConnector.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/MySQLConnector.dir/build.make CMakeFiles/MySQLConnector.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/MySQLConnector.dir/build.make CMakeFiles/MySQLConnector.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -161,10 +185,13 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... cmTC_62f6e"
-	@echo "... CheckSymbolExists.o"
-	@echo "... CheckSymbolExists.i"
-	@echo "... CheckSymbolExists.s"
+	@echo "... MySQLConnector"
+	@echo "... MySQLConnector.o"
+	@echo "... MySQLConnector.i"
+	@echo "... MySQLConnector.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

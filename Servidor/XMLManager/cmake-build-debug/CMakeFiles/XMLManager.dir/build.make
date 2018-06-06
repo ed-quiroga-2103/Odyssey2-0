@@ -43,10 +43,10 @@ RM = /home/eduardo/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/eduardo/Documents/Coding stuff/C++/XMLManager"
+CMAKE_SOURCE_DIR = "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/eduardo/Documents/Coding stuff/C++/XMLManager/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/XMLManager.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/XMLManager.dir/flags.make
 
 CMakeFiles/XMLManager.dir/pugixml.cpp.o: CMakeFiles/XMLManager.dir/flags.make
 CMakeFiles/XMLManager.dir/pugixml.cpp.o: ../pugixml.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/eduardo/Documents/Coding stuff/C++/XMLManager/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/XMLManager.dir/pugixml.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XMLManager.dir/pugixml.cpp.o -c "/home/eduardo/Documents/Coding stuff/C++/XMLManager/pugixml.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/XMLManager.dir/pugixml.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XMLManager.dir/pugixml.cpp.o -c "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/pugixml.cpp"
 
 CMakeFiles/XMLManager.dir/pugixml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XMLManager.dir/pugixml.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/eduardo/Documents/Coding stuff/C++/XMLManager/pugixml.cpp" > CMakeFiles/XMLManager.dir/pugixml.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/pugixml.cpp" > CMakeFiles/XMLManager.dir/pugixml.cpp.i
 
 CMakeFiles/XMLManager.dir/pugixml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XMLManager.dir/pugixml.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/eduardo/Documents/Coding stuff/C++/XMLManager/pugixml.cpp" -o CMakeFiles/XMLManager.dir/pugixml.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/pugixml.cpp" -o CMakeFiles/XMLManager.dir/pugixml.cpp.s
 
 CMakeFiles/XMLManager.dir/pugixml.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/XMLManager.dir/pugixml.cpp.o.provides.build: CMakeFiles/XMLManager.di
 
 CMakeFiles/XMLManager.dir/main.cpp.o: CMakeFiles/XMLManager.dir/flags.make
 CMakeFiles/XMLManager.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/eduardo/Documents/Coding stuff/C++/XMLManager/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/XMLManager.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XMLManager.dir/main.cpp.o -c "/home/eduardo/Documents/Coding stuff/C++/XMLManager/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/XMLManager.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XMLManager.dir/main.cpp.o -c "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/main.cpp"
 
 CMakeFiles/XMLManager.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XMLManager.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/eduardo/Documents/Coding stuff/C++/XMLManager/main.cpp" > CMakeFiles/XMLManager.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/main.cpp" > CMakeFiles/XMLManager.dir/main.cpp.i
 
 CMakeFiles/XMLManager.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XMLManager.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/eduardo/Documents/Coding stuff/C++/XMLManager/main.cpp" -o CMakeFiles/XMLManager.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/main.cpp" -o CMakeFiles/XMLManager.dir/main.cpp.s
 
 CMakeFiles/XMLManager.dir/main.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/XMLManager.dir/main.cpp.o.provides.build: CMakeFiles/XMLManager.dir/m
 
 CMakeFiles/XMLManager.dir/XMLManager.cpp.o: CMakeFiles/XMLManager.dir/flags.make
 CMakeFiles/XMLManager.dir/XMLManager.cpp.o: ../XMLManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/eduardo/Documents/Coding stuff/C++/XMLManager/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/XMLManager.dir/XMLManager.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XMLManager.dir/XMLManager.cpp.o -c "/home/eduardo/Documents/Coding stuff/C++/XMLManager/XMLManager.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/XMLManager.dir/XMLManager.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XMLManager.dir/XMLManager.cpp.o -c "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLManager.cpp"
 
 CMakeFiles/XMLManager.dir/XMLManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XMLManager.dir/XMLManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/eduardo/Documents/Coding stuff/C++/XMLManager/XMLManager.cpp" > CMakeFiles/XMLManager.dir/XMLManager.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLManager.cpp" > CMakeFiles/XMLManager.dir/XMLManager.cpp.i
 
 CMakeFiles/XMLManager.dir/XMLManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XMLManager.dir/XMLManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/eduardo/Documents/Coding stuff/C++/XMLManager/XMLManager.cpp" -o CMakeFiles/XMLManager.dir/XMLManager.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLManager.cpp" -o CMakeFiles/XMLManager.dir/XMLManager.cpp.s
 
 CMakeFiles/XMLManager.dir/XMLManager.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/XMLManager.dir/XMLManager.cpp.o.provides.build: CMakeFiles/XMLManager
 
 CMakeFiles/XMLManager.dir/XMLParts.cpp.o: CMakeFiles/XMLManager.dir/flags.make
 CMakeFiles/XMLManager.dir/XMLParts.cpp.o: ../XMLParts.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/eduardo/Documents/Coding stuff/C++/XMLManager/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/XMLManager.dir/XMLParts.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XMLManager.dir/XMLParts.cpp.o -c "/home/eduardo/Documents/Coding stuff/C++/XMLManager/XMLParts.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/XMLManager.dir/XMLParts.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XMLManager.dir/XMLParts.cpp.o -c "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLParts.cpp"
 
 CMakeFiles/XMLManager.dir/XMLParts.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XMLManager.dir/XMLParts.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/eduardo/Documents/Coding stuff/C++/XMLManager/XMLParts.cpp" > CMakeFiles/XMLManager.dir/XMLParts.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLParts.cpp" > CMakeFiles/XMLManager.dir/XMLParts.cpp.i
 
 CMakeFiles/XMLManager.dir/XMLParts.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XMLManager.dir/XMLParts.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/eduardo/Documents/Coding stuff/C++/XMLManager/XMLParts.cpp" -o CMakeFiles/XMLManager.dir/XMLParts.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLParts.cpp" -o CMakeFiles/XMLManager.dir/XMLParts.cpp.s
 
 CMakeFiles/XMLManager.dir/XMLParts.cpp.o.requires:
 
@@ -174,7 +174,7 @@ XMLManager: /usr/lib/x86_64-linux-gnu/libQt5Sql.so.5.5.1
 XMLManager: /usr/lib/x86_64-linux-gnu/libQt5Xml.so.5.5.1
 XMLManager: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.5.1
 XMLManager: CMakeFiles/XMLManager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/eduardo/Documents/Coding stuff/C++/XMLManager/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable XMLManager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable XMLManager"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/XMLManager.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -194,6 +194,6 @@ CMakeFiles/XMLManager.dir/clean:
 .PHONY : CMakeFiles/XMLManager.dir/clean
 
 CMakeFiles/XMLManager.dir/depend:
-	cd "/home/eduardo/Documents/Coding stuff/C++/XMLManager/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/eduardo/Documents/Coding stuff/C++/XMLManager" "/home/eduardo/Documents/Coding stuff/C++/XMLManager" "/home/eduardo/Documents/Coding stuff/C++/XMLManager/cmake-build-debug" "/home/eduardo/Documents/Coding stuff/C++/XMLManager/cmake-build-debug" "/home/eduardo/Documents/Coding stuff/C++/XMLManager/cmake-build-debug/CMakeFiles/XMLManager.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager" "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager" "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug" "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug" "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug/CMakeFiles/XMLManager.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/XMLManager.dir/depend
 

@@ -1,0 +1,14 @@
+//
+// Created by eduardo on 06/06/18.
+//
+
+#ifndef MYSQLCONNECTOR_MYSQLCONNECTOR_H
+#define MYSQLCONNECTOR_MYSQLCONNECTOR_H
+
+
+class MySQLConnector {
+
+};
+
+
+#endif //MYSQLCONNECTOR_MYSQLCONNECTOR_H

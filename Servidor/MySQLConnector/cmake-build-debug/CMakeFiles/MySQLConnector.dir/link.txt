@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/MySQLConnector.dir/main.cpp.o CMakeFiles/MySQLConnector.dir/MySQLConnector.cpp.o  -o MySQLConnector 
