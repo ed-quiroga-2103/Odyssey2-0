@@ -150,6 +150,33 @@ XMLManager.cpp.s:
 	$(MAKE) -f CMakeFiles/XMLManager.dir/build.make CMakeFiles/XMLManager.dir/XMLManager.cpp.s
 .PHONY : XMLManager.cpp.s
 
+XMLParts.o: XMLParts.cpp.o
+
+.PHONY : XMLParts.o
+
+# target to build an object file
+XMLParts.cpp.o:
+	$(MAKE) -f CMakeFiles/XMLManager.dir/build.make CMakeFiles/XMLManager.dir/XMLParts.cpp.o
+.PHONY : XMLParts.cpp.o
+
+XMLParts.i: XMLParts.cpp.i
+
+.PHONY : XMLParts.i
+
+# target to preprocess a source file
+XMLParts.cpp.i:
+	$(MAKE) -f CMakeFiles/XMLManager.dir/build.make CMakeFiles/XMLManager.dir/XMLParts.cpp.i
+.PHONY : XMLParts.cpp.i
+
+XMLParts.s: XMLParts.cpp.s
+
+.PHONY : XMLParts.s
+
+# target to generate assembly for a file
+XMLParts.cpp.s:
+	$(MAKE) -f CMakeFiles/XMLManager.dir/build.make CMakeFiles/XMLManager.dir/XMLParts.cpp.s
+.PHONY : XMLParts.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -216,6 +243,9 @@ help:
 	@echo "... XMLManager.o"
 	@echo "... XMLManager.i"
 	@echo "... XMLManager.s"
+	@echo "... XMLParts.o"
+	@echo "... XMLParts.i"
+	@echo "... XMLParts.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,5 +1,5 @@
 //
-// Created by eduardo on 28/04/18.
+// Created by eduardo on 05/06/18.
 //
 
 #ifndef XMLMANAGER_XMLPARTS_H
@@ -26,16 +26,15 @@ public:
 class XMLDoc: public pugi::xml_document {
 private:
     XMLWriter writer;
+    string rootNode;
 
 public:
-    XMLDoc();
-    XMLDoc(int check);
-
-    void newChild(int opnum, string data);
-
+    XMLDoc(string root);
+    void newChild(string dataName,string data);
     void saveXML(string name);
-
     string toString();
+    string remove_extra_whitespaces(string a);
+
 };
 
 #endif //XMLMANAGER_XMLPARTS_H

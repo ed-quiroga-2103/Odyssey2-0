@@ -1,6 +1,8 @@
 //
-// Created by eduardo on 28/04/18.
+// Created by eduardo on 05/06/18.
 //
+
+#include "XMLParts.h"
 
 #include <iostream>
 #include <sstream>
@@ -8,24 +10,20 @@
 #include "pugixml.hpp"
 #include "string"
 
-XMLDoc::XMLDoc(){}
-XMLDoc::XMLDoc(int check) {
+XMLDoc::XMLDoc(string rootStr){
 
-    pugi::xml_node parent = this->append_child("oddata");
-
-    pugi::xml_node data = parent.append_child("data");
-
+    pugi::xml_node root = this->append_child(rootStr.c_str());
+    rootNode = rootStr;
 }
 
-void XMLDoc::newChild(int opnum, string data) {
+//Metodo root
 
-    pugi::xml_node parent = this->child("oddata").child("data");
+void XMLDoc::newChild(string dataName, string data) {
 
-    pugi::xml_node opchild = parent.append_child("opnum");
-    opchild.append_child(pugi::node_pcdata).set_value(std::to_string(opnum).c_str());
+    pugi::xml_node parent = this->child(rootNode.c_str());
+    pugi::xml_node child = parent.append_child(dataName.c_str());
+    child.append_child(pugi::node_pcdata).set_value(data.c_str());
 
-    pugi::xml_node cdata = parent.append_child("CData");
-    cdata.append_child(pugi::node_cdata).set_value(data.c_str());
 
 }
 
@@ -43,6 +41,28 @@ string XMLDoc::toString() {
 
 }
 
+string XMLDoc::remove_extra_whitespaces(string a)
+{
+    string tab = "\t";
+    string line = "\n";
+
+    std::stringstream output;
+
+    for(int i = 0; i < a.length(); i++){
 
 
+        string comp;
+        comp.push_back(a[i]);
+
+        if(comp != tab && comp != line){
+
+            output << a[i];
+
+        }
+
+    }
+
+    return output.str();
+
+}
 
