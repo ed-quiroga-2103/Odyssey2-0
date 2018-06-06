@@ -1,0 +1,378 @@
+******************************************************************XML FORMAT**************************************************************************
+******************************************************************************************************************************************************
+
+**Version 1.0**
+
+
+**************************************************************Sing In****************************************************************
+
+//Client
+
+	<op>#</op>																							// operation # = 1
+  <data>
+  	<user>
+  		<username>somename</username>
+    	<password>somepassword</password>
+    </user>
+  </data>
+
+
+//Server
+	
+  <op>#</op>																						 // server returns same op to handle errors if occurs 
+  <data>
+    <confirmation>true/false</confirmation>							// if confirmation == true: return user and other data
+    <user>
+			<name>somename</name>
+      <username>someusername</username>									
+      <age>someage</age>
+      <password>somepassword</password>
+      <email>someemail</email>
+      <image64>someimage</image64>
+    </user>
+    <notifications>
+    	<notification>
+      	<from>someone</from>
+        <message>something</message>
+        <name>somename</name>													// name of the song
+      </notification>
+      ...
+    </notifications>
+    <songs>																						// all songs by pagination (10 songs in each page)
+    	<song>
+      	<name>somename</name>
+      	<artist>someartist</artist>
+      	<album>somealbum</album>
+      	<lyrics>somelyrics</lyrics>
+      	<file64>somefile</file64>
+        <image64>someimage</image64>
+        <rating>somenumber</rating>
+        <sum>somenumber</sum>
+        <votes>somenumber</votes>
+      </song>
+      ...
+    </songs>
+    <fiends>
+    	<friend>
+      	<name>somename</name>
+        <username>someusername</username>
+        <age>someage</age>
+        <email>someemail</email>
+        <image64>someimage</image64>
+      </friend>
+      ...
+    </friends>
+  </data>
+
+*************************************************************************************************************************************
+
+**************************************************************Sing Up****************************************************************
+
+//Client
+
+	<op>#</op>																					// operation # = 0
+  <data>
+  	<user>
+    	<name>somename</name>
+      <username>someusername</username>
+      <age>someage</age>
+      <password>somepassword</password>
+      <email>someemail</email>
+    </user>
+  </data>
+
+
+//Server
+
+	<op>#</op>
+  <data>
+  	<confirmation>true/false</confirmation>
+  </data>
+
+*************************************************************************************************************************************
+
+************************************************************Search Song**************************************************************
+
+//Client
+
+	<op>#</op>
+  <data>
+  	<song>
+    	<name>somename</name>
+    </song>
+  </data>
+
+
+//Server
+
+	<op>#</op>
+  <data>
+  	<song>
+    	<name>somename</name>
+      <artist>someartist</artist>
+      <album>somealbum</album>
+      <lyrics>somelyrics</lyrics>
+      <file64>somefile</file64>
+      <image64>someimage</image64>
+      <rating>somenumber</rating>
+      <sum>somenumber</sum>
+      <votes>somenumber</votes>
+    </song>
+  </data>
+
+*************************************************************************************************************************************
+
+***********************************************************Register Song*************************************************************
+
+//Client
+
+	<op>#</op>
+  <data>
+  	<song>
+    	<name>somename</name>
+      <artist>someartist</artist>
+      <album>somealbum</album>
+      <lyrics>somelyrics</lyrics>
+      <file64>somefile</file64>
+    </song>
+  </data>
+  
+//Sever
+
+	<op>#</op>
+  <data>
+  	<confirmation>true/false</confirmation>									 // if confirmation ==true: return song list
+    <songs>																									// all songs by pagination (10 songs in each page)
+    	<song>
+      	<name>somename</name>
+      	<artist>someartist</artist>
+      	<album>somealbum</album>
+      	<lyrics>somelyrics</lyrics>
+      	<file64>somefile</file64>
+        <image64>someimage</image64>
+        <rating>somenumber</rating>
+        <sum>somenumber</sum>
+        <votes>somenumber</votes>
+      </song>
+      ...
+    </songs>
+  </data>
+  
+*************************************************************************************************************************************
+
+************************************************************Delete Song**************************************************************
+
+//Client
+
+	<op>#</op>
+  <data>
+  	<song>
+    	<name>somename</name>
+    </song>
+  </data>
+
+
+//Server
+
+	<op>#</op>
+  <data>
+  	<confirmation>true/false</confirmation>									 // if confirmation ==true: return song list
+    <songs>																									// all songs by pagination (10 songs in each page)
+    	<song>
+      	<name>somename</name>
+      	<artist>someartist</artist>
+      	<album>somealbum</album>
+      	<lyrics>somelyrics</lyrics>
+      	<file64>somefile</file64>
+        <image64>someimage</image64>
+        <rating>somenumber</rating>
+        <sum>somenumber</sum>
+        <votes>somenumber</votes>
+      </song>
+      ...
+    </songs>
+  </data>
+  
+*************************************************************************************************************************************
+
+************************************************************Add Friend***************************************************************
+
+//Client
+
+	<op>#</op>
+  <data>
+  	<friend>
+    	<name>somename</name>
+    </friend>
+  </data>
+
+
+//Server
+
+	<op>#</op>
+  <data>
+  	<confirmation>true/false</confirmation>
+    <fiends>
+    	<friend>
+      	<name>somename</name>
+        <username>someusername</username>
+        <age>someage</age>
+        <email>someemail</email>
+        <image64>someimage</image64>
+      </friend>
+      ...
+    </friends>
+  </data>
+  
+*************************************************************************************************************************************
+
+***********************************************************Delete Friend*************************************************************
+
+//Client
+
+	<op>#</op>
+  <data>
+  	<friend>
+    	<name>somename</name>
+    </friend>
+  </data>
+
+
+//Server
+
+	<op>#</op>
+  <data>
+  	<confirmation>true/false</confirmation>
+    <fiends>
+    	<friend>
+      	<name>somename</name>
+        <username>someusername</username>
+        <age>someage</age>
+        <email>someemail</email>
+        <image64>someimage</image64>
+      </friend>
+      ...
+    </friends>
+  </data>
+  
+*************************************************************************************************************************************
+
+*************************************************************Rate Song***************************************************************
+
+//Client
+
+	<op>#</op>
+  <data>
+  	<song>
+    	<name>somename</name>
+    	<votes>somenumber</votes>
+      <sum>somenumber</sum>
+      <rating>somenumber</rating>
+    </song>
+  </data>
+
+
+//Server
+
+	<op>#</op>
+  <data>
+  	<confirmation>true/false</confirmation>
+    <songs>																									// all songs by pagination (10 songs in each page)
+    	<song>
+      	<name>somename</name>
+      	<artist>someartist</artist>
+      	<album>somealbum</album>
+      	<lyrics>somelyrics</lyrics>
+      	<file64>somefile</file64>
+        <image64>someimage</image64>
+        <rating>somenumber</rating>
+        <sum>somenumber</sum>
+        <votes>somenumber</votes>
+      </song>
+      ...
+    </songs>
+  </data>
+  
+*************************************************************************************************************************************
+
+********************************************************Song List Pagination*********************************************************
+
+//Client
+
+	<op>#</op>
+  <page>somenumber</page>
+  
+
+//Server
+	
+  <op>#</op>
+  <songs>																									// all songs by pagination (10 songs in each page)
+    	<song>
+      	<name>somename</name>
+      	<artist>someartist</artist>
+      	<album>somealbum</album>
+      	<lyrics>somelyrics</lyrics>
+      	<file64>somefile</file64>
+        <image64>someimage</image64>
+        <rating>somenumber</rating>
+        <sum>somenumber</sum>
+        <votes>somenumber</votes>
+      </song>
+      ...
+    </songs>
+
+*************************************************************************************************************************************
+
+**********************************************************Update Metadata************************************************************
+
+//Client
+	
+  	<op>#</op>																							// operation # = 4
+  	<song>
+    	<oldname>somename</oldname>
+      <name>somename</name>
+      <artist>someartist</artist>
+      <album>somealbum</album>
+      <lyrics>somelyrics</lyrics>
+      <image64>someimage</image64>
+    </song>
+
+//Server
+	
+  <op>#</op>																							
+  <confirmation>true/false</confirmation>
+  <songs>																									// all songs by pagination (10 songs in each page)
+    	<song>
+      	<name>somename</name>
+      	<artist>someartist</artist>
+      	<album>somealbum</album>
+      	<lyrics>somelyrics</lyrics>
+      	<file64>somefile</file64>
+        <image64>someimage</image64>
+        <rating>somenumber</rating>
+        <sum>somenumber</sum>
+        <votes>somenumber</votes>
+      </song>
+      ...
+    </songs>
+
+*************************************************************************************************************************************
+
+**********************************************************Update User Data***********************************************************
+
+//Client
+
+	<op>#</op>																							// operation # = 13 (new)
+	<user>
+  	<password>somepassword</password>
+    <image64>someimage<image64>
+  </user>
+
+//Server
+	
+  <op>#</op>
+  <data>
+  	<confirmation>true/false</confirmation>
+  </data>
+
+*************************************************************************************************************************************
