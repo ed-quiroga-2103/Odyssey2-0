@@ -116,6 +116,11 @@ MySQLConnector_EXTERNAL_OBJECTS =
 MySQLConnector: CMakeFiles/MySQLConnector.dir/main.cpp.o
 MySQLConnector: CMakeFiles/MySQLConnector.dir/MySQLConnector.cpp.o
 MySQLConnector: CMakeFiles/MySQLConnector.dir/build.make
+MySQLConnector: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.5.1
+MySQLConnector: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.5.1
+MySQLConnector: /usr/lib/x86_64-linux-gnu/libQt5Sql.so.5.5.1
+MySQLConnector: /usr/lib/x86_64-linux-gnu/libQt5Xml.so.5.5.1
+MySQLConnector: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.5.1
 MySQLConnector: CMakeFiles/MySQLConnector.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/MySQLConnector/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable MySQLConnector"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MySQLConnector.dir/link.txt --verbose=$(VERBOSE)

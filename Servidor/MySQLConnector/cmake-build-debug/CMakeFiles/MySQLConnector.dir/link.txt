@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/MySQLConnector.dir/main.cpp.o CMakeFiles/MySQLConnector.dir/MySQLConnector.cpp.o  -o MySQLConnector 
+/usr/bin/c++  -g   CMakeFiles/MySQLConnector.dir/main.cpp.o CMakeFiles/MySQLConnector.dir/MySQLConnector.cpp.o  -o MySQLConnector /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.5.1 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.5.1 /usr/lib/x86_64-linux-gnu/libQt5Sql.so.5.5.1 /usr/lib/x86_64-linux-gnu/libQt5Xml.so.5.5.1 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.5.1 
