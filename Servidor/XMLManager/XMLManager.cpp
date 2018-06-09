@@ -35,13 +35,12 @@ XMLDoc *XMLManager::logInResponse(bool confirm, string username) {
 
     if(confirm) {
 
-        doc->newChild("op", 0);
+        doc->newChild("op", 1);
         doc->newChild("confirmation", std::to_string(confirm).c_str());
         Node user = doc->newChild("user");
-        user.append_child("name").append_child(pugi::node_pcdata).set_value("REALNAME");
-        user.append_child("username").append_child(pugi::node_pcdata).set_value(username.c_str());
-        user.append_child("age").append_child(pugi::node_pcdata).set_value("19");
-        user.append_child("email").append_child(pugi::node_pcdata).set_value("EMAIL");
+
+        this->getUserData(user);
+
         Node nots = doc->newChild("notifications");
         nots.append_child("notification").append_child("message").append_child(pugi::node_pcdata).set_value(
                 "THIS IS A MESSAGE");
@@ -52,5 +51,25 @@ XMLDoc *XMLManager::logInResponse(bool confirm, string username) {
 
     }
     return doc;
+
+}
+
+XMLDoc *XMLManager::signIn(bool confirm){
+
+    XMLDoc *doc = new XMLDoc("root");
+
+    doc->newChild("op", 0);
+    doc->newChild("confirmation", std::to_string(confirm).c_str());
+
+}
+
+pugi::xml_node XMLManager::getUserData(pugi::xml_node user){
+
+    user.append_child("name").append_child(pugi::node_pcdata).set_value("REALNAME");
+    user.append_child("username").append_child(pugi::node_pcdata).set_value("USERNAME");
+    user.append_child("age").append_child(pugi::node_pcdata).set_value("19");
+    user.append_child("email").append_child(pugi::node_pcdata).set_value("EMAIL");
+
+    return user;
 
 }

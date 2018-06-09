@@ -17,7 +17,12 @@ private:
 public:
     //Creating documents
     XMLDoc* newXMLDoc(int opnum, string CDATA);
+
     XMLDoc* logInResponse(bool confirm, string username);
+    XMLDoc* signIn(bool confirm);
+
+    pugi::xml_node getUserData(pugi::xml_node user);
+
     void saveXML(XMLDoc doc, string name);
 
     //Parsing documents
