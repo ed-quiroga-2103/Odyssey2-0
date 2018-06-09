@@ -7,27 +7,34 @@
 
 #include "XMLParts.h"
 #include "string"
+#include "../MySQLConnector/MySQLConnector.h"
+
+using string = std::string;
 
 class XMLManager {
 private:
+
+    MySQLConnector* connector = new MySQLConnector("root", "85452565", "users");
 
     pugi::xml_node getNotifications();
     pugi::xml_node getFriends();
 
 public:
-    //Creating documents
-    XMLDoc* newXMLDoc(int opnum, string CDATA);
 
     XMLDoc* logInResponse(bool confirm, string username);
     XMLDoc* signIn(bool confirm);
+    XMLDoc* searchSongResponse(int opnum, string name);
+    XMLDoc* registerSongResponse(bool confirm);
 
-    pugi::xml_node getUserData(pugi::xml_node user);
+
+    pugi::xml_node getUserData(pugi::xml_node user, string username);
+    pugi::xml_node getSongs(pugi::xml_node songsNode);
+
+    pugi::xml_node searchSongByName(pugi::xml_node song, string data);
+    pugi::xml_node searchSongByArtist(pugi::xml_node song, string data);
+    pugi::xml_node searchSongByAlbum(pugi::xml_node song, string data);
 
     void saveXML(XMLDoc doc, string name);
-
-    //Parsing documents
-    string getCDATA(string str);
-    int getOpNum(string str);
 
 
 };

@@ -9,51 +9,14 @@
 
 using Node = pugi::xml_node;
 
-int main() {
+int main(int argc, char *argv[]) {
+    QCoreApplication a(argc, argv);
 
-/*
-    XMLDoc doc("root");
-
-    doc.newChild("User","USERXML");
-    doc.newChild("Songs","SONGSXML");
-
-    pugi::xml_node sub = doc.newChild("Notifications");
-
-    pugi::xml_node child = sub.append_child("Notification");
-
-    pugi::xml_node asd = child.append_child("User").append_child("Lapices");
-
-    asd.append_child(pugi::node_pcdata).set_value("Holi");
-
-    child.append_attribute("name") = 1;
-
-    std::cout << doc.toString();
-*/
-
-/*
-<root>
-    <op>#<op>
-    <confirmation>true/false</confirmation>
-    <user>
-        <name>somename</name>
-        <username>someusername</username>
-        <age>someage</age>
-        <email>someemail</email>
-        <image64>someimage</image64>
-        <friends>friendlist</friends>
-    </user>
-    <notifications>
-        <notification>
-            <message>something</message>
-        </notification>
-        ...
-    </notifications>
-</root>
-*/
     XMLManager xml;
 
-    XMLDoc* doc = xml.logInResponse(true, "USERNAME");
+    //FALTA HACER TABLA DE NOTIFICACIONES
 
+    XMLDoc* doc = xml.logInResponse(true, "isaac-123");
 
     std::cout << doc->toString();
 

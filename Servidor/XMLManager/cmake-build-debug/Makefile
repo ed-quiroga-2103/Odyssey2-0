@@ -177,6 +177,33 @@ XMLParts.cpp.s:
 	$(MAKE) -f CMakeFiles/XMLManager.dir/build.make CMakeFiles/XMLManager.dir/XMLParts.cpp.s
 .PHONY : XMLParts.cpp.s
 
+home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/MySQLConnector/MySQLConnector.o: home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/MySQLConnector/MySQLConnector.cpp.o
+
+.PHONY : home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/MySQLConnector/MySQLConnector.o
+
+# target to build an object file
+home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/MySQLConnector/MySQLConnector.cpp.o:
+	$(MAKE) -f CMakeFiles/XMLManager.dir/build.make CMakeFiles/XMLManager.dir/home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/MySQLConnector/MySQLConnector.cpp.o
+.PHONY : home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/MySQLConnector/MySQLConnector.cpp.o
+
+home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/MySQLConnector/MySQLConnector.i: home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/MySQLConnector/MySQLConnector.cpp.i
+
+.PHONY : home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/MySQLConnector/MySQLConnector.i
+
+# target to preprocess a source file
+home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/MySQLConnector/MySQLConnector.cpp.i:
+	$(MAKE) -f CMakeFiles/XMLManager.dir/build.make CMakeFiles/XMLManager.dir/home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/MySQLConnector/MySQLConnector.cpp.i
+.PHONY : home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/MySQLConnector/MySQLConnector.cpp.i
+
+home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/MySQLConnector/MySQLConnector.s: home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/MySQLConnector/MySQLConnector.cpp.s
+
+.PHONY : home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/MySQLConnector/MySQLConnector.s
+
+# target to generate assembly for a file
+home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/MySQLConnector/MySQLConnector.cpp.s:
+	$(MAKE) -f CMakeFiles/XMLManager.dir/build.make CMakeFiles/XMLManager.dir/home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/MySQLConnector/MySQLConnector.cpp.s
+.PHONY : home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/MySQLConnector/MySQLConnector.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -246,6 +273,9 @@ help:
 	@echo "... XMLParts.o"
 	@echo "... XMLParts.i"
 	@echo "... XMLParts.s"
+	@echo "... home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/MySQLConnector/MySQLConnector.o"
+	@echo "... home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/MySQLConnector/MySQLConnector.i"
+	@echo "... home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/MySQLConnector/MySQLConnector.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

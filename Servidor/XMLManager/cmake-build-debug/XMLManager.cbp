@@ -50,6 +50,7 @@
 					<Add option="-DQT_SQL_LIB"/>
 					<Add option="-DQT_XML_LIB"/>
 					<Add directory="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/pugixml-1.9"/>
+					<Add directory="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../MySQLConnector"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
@@ -86,6 +87,7 @@
 					<Add option="-DQT_SQL_LIB"/>
 					<Add option="-DQT_XML_LIB"/>
 					<Add directory="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/pugixml-1.9"/>
+					<Add directory="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../MySQLConnector"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
@@ -110,6 +112,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/MySQLConnector/MySQLConnector.cpp">
+			<Option target="XMLManager"/>
+		</Unit>
+		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/MySQLConnector/MySQLConnector.h">
+			<Option target="XMLManager"/>
+		</Unit>
 		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLManager.cpp">
 			<Option target="XMLManager"/>
 		</Unit>

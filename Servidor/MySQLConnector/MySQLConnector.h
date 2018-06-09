@@ -16,10 +16,16 @@ using string = std::string;
 
 class MySQLConnector {
 private:
-    QSqlDatabase db;
+    QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
 
 public:
-    MySQLConnector(string username, string password, string database, QCoreApplication ap);
+    MySQLConnector(string username, string password, string database);
+
+    QSqlDatabase getDB(){
+
+        return (this->db);
+
+    };
 
     void print();
 

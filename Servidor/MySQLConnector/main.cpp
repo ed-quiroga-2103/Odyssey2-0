@@ -4,26 +4,14 @@
 #include <QtSql/qsqldatabase.h>
 #include <QApplication>
 #include <QDebug>
+#include "MySQLConnector.h"
 
 int main(int argc, char *argv[]) {
     QCoreApplication a(argc, argv);
-    QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
-    db.setHostName("localhost");
-    db.setDatabaseName("users");
-    db.setUserName("root");
-    db.setPassword("85452565");
-    bool ok = db.open();
 
-    qDebug() << ok;
+    MySQLConnector connector("root", "85452565", "users");
 
-    QSqlQuery qry(db);
+    connector.print();
 
-    qry.exec("SELECT * FROM users");
-
-    while (qry.next()) {
-        QString name = qry.value(0).toString();
-        QString salary = qry.value(1).toString();
-        qDebug() << name << salary;
-    }
     return 0;
 }

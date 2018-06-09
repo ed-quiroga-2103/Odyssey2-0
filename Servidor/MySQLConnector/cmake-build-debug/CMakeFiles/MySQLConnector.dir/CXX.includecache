@@ -9,8 +9,30 @@
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/MySQLConnector/MySQLConnector.cpp
 MySQLConnector.h
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/MySQLConnector/MySQLConnector.h
+QtSql
+-
+QtCore/QCoreApplication
+-
+QtSql/qsqldatabase.h
+-
+QApplication
+-
+QDebug
+-
 
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/MySQLConnector/MySQLConnector.h
+string
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/MySQLConnector/string
+QtSql
+-
+QtCore/QCoreApplication
+-
+QtSql/qsqldatabase.h
+-
+QApplication
+-
+QDebug
+-
 
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/MySQLConnector/main.cpp
 iostream
@@ -25,6 +47,8 @@ QApplication
 -
 QDebug
 -
+MySQLConnector.h
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/MySQLConnector/MySQLConnector.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QCoreApplication
 qcoreapplication.h
