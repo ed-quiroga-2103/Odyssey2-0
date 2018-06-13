@@ -1,3 +1,0 @@
-/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/UserManager/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/UserManager/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/UserManager/cmake-build-debug/CMakeFiles/UserManager.dir
