@@ -24,7 +24,7 @@ XMLDoc *XMLManager::logInResponse(bool confirm, string username) {
 
         Node songs = data.append_child("songs");
 
-        this->getSongs(songs);
+        this->getSongs(songs,0);
 
         Node nots = data.append_child("notifications");
         nots.append_child("notification").append_child("message").append_child(pugi::node_pcdata).set_value(
@@ -49,13 +49,18 @@ XMLDoc *XMLManager::signIn(bool confirm){
     return doc;
 }
 
-pugi::xml_node XMLManager::getSongs(pugi::xml_node songsNode) {
+pugi::xml_node XMLManager::getSongs(pugi::xml_node songsNode, int page) {
 
     QSqlQuery qry(connector->getDB());
 
     int i = 0;
 
-    qry.exec("SELECT * FROM songs");
+    std::stringstream command;
+
+    command << "SELECT * FROM songs WHERE ind > ";
+    command << page*10;
+
+    qry.exec(command.str().c_str());
     while (qry.next() && i < 10) {
 
         pugi::xml_node currentNode = songsNode.append_child("song");
@@ -235,7 +240,7 @@ XMLDoc* XMLManager::registerSongResponse(bool confirm) {
         Node data = doc->newChild("data");
 
         Node songs = doc->newChild("songs");
-        this->getSongs(songs);
+        this->getSongs(songs,0);
 
         data.append_child(data.type());
 
@@ -248,3 +253,28 @@ XMLDoc* XMLManager::registerSongResponse(bool confirm) {
     return doc;
 
 }
+
+XMLDoc* XMLManager::deleteSongResponse(bool confirm) {
+    XMLDoc *doc = new XMLDoc("root");
+
+    if(confirm) {
+
+        doc->newChild("op", 1);
+        doc->newChild("confirmation", std::to_string(confirm).c_str());
+        Node data = doc->newChild("data");
+
+        Node songs = doc->newChild("songs");
+        this->getSongs(songs,0);
+
+        data.append_child(data.type());
+
+    }
+    else{
+
+        doc->newChild("confirmation", std::to_string(confirm).c_str());
+
+    }
+    return doc;
+
+}
+

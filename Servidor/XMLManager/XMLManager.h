@@ -16,25 +16,25 @@ private:
 
     MySQLConnector* connector = new MySQLConnector("root", "85452565", "users");
 
+//-----------------FALTA-----------------
     pugi::xml_node getNotifications();
     pugi::xml_node getFriends();
-
+//---------------------------------------
 public:
 
     XMLDoc* logInResponse(bool confirm, string username);
     XMLDoc* signIn(bool confirm);
     XMLDoc* searchSongResponse(int opnum, string name);
     XMLDoc* registerSongResponse(bool confirm);
+    XMLDoc* deleteSongResponse(bool confirm);
 
 
     pugi::xml_node getUserData(pugi::xml_node user, string username);
-    pugi::xml_node getSongs(pugi::xml_node songsNode);
+    pugi::xml_node getSongs(pugi::xml_node songsNode, int page);
 
     pugi::xml_node searchSongByName(pugi::xml_node song, string data);
     pugi::xml_node searchSongByArtist(pugi::xml_node song, string data);
     pugi::xml_node searchSongByAlbum(pugi::xml_node song, string data);
-
-    void saveXML(XMLDoc doc, string name);
 
 
 };

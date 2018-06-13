@@ -8,7 +8,7 @@
 
 //Client
 
-	<op>#</op>																							// operation # = 1
+<op>#<op>																							// operation # = 1
   <data>
   	<user>
   		<username>somename</username>
@@ -38,8 +38,8 @@
       </notification>
       ...
     </notifications>
-    <songs>																						// all songs by pagination (10 songs in each page)
-    	<song>
+    <songs>																						// 	all songs by pagination (10 songs in each page)
+    <song>
       	<name>somename</name>
       	<artist>someartist</artist>
       	<album>somealbum</album>
@@ -49,7 +49,7 @@
         <rating>somenumber</rating>
         <sum>somenumber</sum>
         <votes>somenumber</votes>
-      </song>
+    </song>
       ...
     </songs>
     <fiends>
@@ -104,22 +104,22 @@
 
 
 //Server
-
+<root>
 	<op>#</op>
-  <data>
-  	<song>
-    	<name>somename</name>
-      <artist>someartist</artist>
-      <album>somealbum</album>
-      <lyrics>somelyrics</lyrics>
-      <file64>somefile</file64>
-      <image64>someimage</image64>
-      <rating>somenumber</rating>
-      <sum>somenumber</sum>
-      <votes>somenumber</votes>
-    </song>
-  </data>
-
+	<data>
+		<song>
+			<name>somename</name>
+			<artist>someartist</artist>
+			<album>somealbum</album>
+			<lyrics>somelyrics</lyrics>
+			<file64>somefile</file64>
+			<image64>someimage</image64>
+			<rating>somenumber</rating>
+			<sum>somenumber</sum>
+			<votes>somenumber</votes>
+		</song>
+	</data>
+</root>
 *************************************************************************************************************************************
 
 ***********************************************************Register Song*************************************************************
@@ -139,25 +139,27 @@
   
 //Sever
 
+<root>
 	<op>#</op>
-  <data>
-  	<confirmation>true/false</confirmation>									 // if confirmation ==true: return song list
-    <songs>																									// all songs by pagination (10 songs in each page)
-    	<song>
-      	<name>somename</name>
-      	<artist>someartist</artist>
-      	<album>somealbum</album>
-      	<lyrics>somelyrics</lyrics>
-      	<file64>somefile</file64>
-        <image64>someimage</image64>
-        <rating>somenumber</rating>
-        <sum>somenumber</sum>
-        <votes>somenumber</votes>
-      </song>
-      ...
-    </songs>
-  </data>
-  
+	<data>
+		<confirmation>true/false</confirmation>									 // if confirmation ==true: 
+		<songs>
+		    	<song>
+			      	<name>somename</name>
+			      	<artist>someartist</artist>
+			      	<album>somealbum</album>
+			      	<lyrics>somelyrics</lyrics>
+			      	<file64>somefile</file64>
+				<image64>someimage</image64>
+				<rating>somenumber</rating>
+				<sum>somenumber</sum>
+				<votes>somenumber</votes>
+		      </song>
+		      ...
+		</songs>
+	</data>  
+</root>
+
 *************************************************************************************************************************************
 
 ************************************************************Delete Song**************************************************************
@@ -212,7 +214,7 @@
 	<op>#</op>
   <data>
   	<confirmation>true/false</confirmation>
-    <fiends>
+    <friends>
     	<friend>
       	<name>somename</name>
         <username>someusername</username>
