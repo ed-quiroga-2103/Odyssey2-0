@@ -7,22 +7,25 @@
 #include "DataManager.h"
 
 bool DataManager::createUser(string username, string name, string password, int age, string favGen, string email) {
+    if(!userExists(username)){
+
+        QSqlDatabase db = connector->getDB();
+
+        QSqlQuery query(db);
 
 
-    QSqlDatabase db = connector->getDB();
+        string a = "INSERT INTO users VALUES(\"";
+        string comma = "\",\"";
+        string end = "\");";
 
-    QSqlQuery query(db);
+        string command = a+username+comma+name+comma+hasher.hash(password)+comma+std::to_string(age)+comma+favGen+comma+email+end;
 
+        query.exec(command.c_str());
 
-    string a = "INSERT INTO users VALUES(\"";
-    string comma = "\",\"";
-    string end = "\");";
+        return true;
+    }
 
-    string command = a+username+comma+name+comma+hasher.hash(password)+comma+std::to_string(age)+comma+favGen+comma+email+end;
-
-    query.exec(command.c_str());
-
-    return true;
+    else return false;
 }
 
 bool DataManager::logUser(string username, string password) {
@@ -94,6 +97,58 @@ bool DataManager::userExists(string username) {
 
     }
 
+}
+
+
+bool DataManager::addSong(string name, string artist, string album, string lyrics) {
+    if(!songExists(name)){
+
+        QSqlDatabase db = connector->getDB();
+
+        QSqlQuery query(db);
+
+
+        string a = "INSERT INTO songs VALUES(\"";
+        string comma = "\",\"";
+        string end = "\");";
+
+        string null = "\",NULL);";
+
+        string command = a+name+comma+artist+comma+album+comma+lyrics+null;
+
+        query.exec(command.c_str());
+
+        return true;
+    }
+
+    else return false;
+}
+
+bool DataManager::editSong(string name, string newName, string artist, string album, string lyrics) {
+    if(songExists(name)){
+
+        QSqlDatabase db = connector->getDB();
+
+        QSqlQuery query(db);
+
+
+        string a = "UPDATE songs set name = \"";
+        string b = "\", artist = \"";
+        string c = "\", album = \"";
+        string d = "\", lyrics = \"";
+        string e = "\" WHERE name = \"";
+        string end = "\";";
+
+        string null = "\",NULL);";
+
+        string command = a+newName+b+artist+c+album+d+lyrics+e+name+end;
+
+        query.exec(command.c_str());
+
+        return true;
+    }
+
+    else return false;
 }
 
 bool DataManager::songExists(string songname) {

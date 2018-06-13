@@ -21,6 +21,10 @@ public:
 //----------------------------------------------------------------------------------------------------------
     bool createUser(string username, string name, string password, int age, string favGen, string email);
     bool logUser(string username, string password);
+
+//----------------------------------------------------------------------------------------------------------
+    bool editSong(string name, string newName, string artist, string album, string lyrics);
+    bool addSong(string name, string artist, string album, string lyrics);
 //----------------------------------------------------------------------------------------------------------
     bool userExists(string username);
     bool songExists(string songname);
