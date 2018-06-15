@@ -36,6 +36,20 @@ public:
     pugi::xml_node searchSongByArtist(pugi::xml_node song, string data);
     pugi::xml_node searchSongByAlbum(pugi::xml_node song, string data);
 
+    //Metodos de lectura entrantes del cliente //
+
+    int getOpNum(string str);
+    void*readSingIn(string data);
+    void *readSingUp(string data);
+    void *readSearchSong(string data);
+    void *readRegisterSong(string data);
+    void *readDeleteSong(string data);
+    void *readRegisterPlaylist(string data);
+    void *readDeletePlaylist(string data);
+    void *readAddFriend(string data);
+    void *readDeleteFriend(string data);
+    void *readRateSong(string);
+
 
 };
 
