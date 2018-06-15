@@ -21,14 +21,19 @@ public:
 //----------------------------------------------------------------------------------------------------------
     bool createUser(string username, string name, string password, int age, string favGen, string email);
     bool logUser(string username, string password);
-
+    bool addFriend(string username, string friendUsername);
+    bool deleteFriend(string username, string friendUsername);
 //----------------------------------------------------------------------------------------------------------
     bool editSong(string name, string newName, string artist, string album, string lyrics);
     bool addSong(string name, string artist, string album, string lyrics);
+    bool deleteSong(string name);
+    bool rateSong(string name, int rating);
 //----------------------------------------------------------------------------------------------------------
     bool userExists(string username);
     bool songExists(string songname);
 
+    bool createFriendsTable(string username);
+    bool createNotsTable(string username);
 };
 
 

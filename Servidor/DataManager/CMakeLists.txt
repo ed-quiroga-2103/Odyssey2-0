@@ -17,7 +17,7 @@ find_package(Qt5Xml REQUIRED)
 add_executable(UserManager ../MySQLConnector/MySQLConnector.cpp
         ../MySQLConnector/MySQLConnector.h
         ../HashFunct/HashClass.cpp ../HashFunct/HashClass.h
-        main.cpp DataManager.cpp DataManager.h)
+        main.cpp DataManager.cpp DataManager.h SortingFuncts.h)
 
 target_link_libraries(UserManager Qt5::Core Qt5::Widgets Qt5::Gui Qt5::Sql Qt5::Xml)
 

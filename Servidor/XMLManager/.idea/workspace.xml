@@ -48,11 +48,12 @@
       <file leaf-file-name="XMLManager.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/XMLManager.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="941">
+            <state relative-caret-position="450">
               <caret line="256" column="38" lean-forward="false" selection-start-line="256" selection-start-column="38" selection-end-line="256" selection-end-column="38" />
               <folding>
                 <element signature="e#42#61#0" expanded="true" />
                 <element signature="e#2232#3199#0" expanded="true" />
+                <element signature="e#7081#7576#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,7 +121,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="27" />
     <option name="width" value="673" />
     <option name="height" value="741" />
@@ -191,14 +192,15 @@
       <workItem from="1528692941652" duration="189000" />
       <workItem from="1528693241670" duration="614000" />
       <workItem from="1528761165554" duration="752000" />
+      <workItem from="1529099180029" duration="45000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30874000" />
+    <option name="totallyTimeSpent" value="30919000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="673" height="741" extended-state="4" />
+    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -254,6 +256,53 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/XMLManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="36" column="71" lean-forward="false" selection-start-line="36" selection-start-column="70" selection-end-line="36" selection-end-column="71" />
+          <folding>
+            <element signature="e#107#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XMLParts.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#2#0" expanded="true" />
+            <element signature="e#42#63#0" expanded="true" />
+            <element signature="e#168#290#0" expanded="true" />
+            <element signature="e#292#570#0" expanded="true" />
+            <element signature="e#863#1061#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XMLParts.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#2#0" expanded="true" />
+            <element signature="e#173#416#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XMLManager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4608">
+          <caret line="256" column="38" lean-forward="false" selection-start-line="256" selection-start-column="38" selection-end-line="256" selection-end-column="38" />
+          <folding>
+            <element signature="e#42#61#0" expanded="true" />
+            <element signature="e#2232#3199#0" expanded="true" />
+            <element signature="e#7081#7576#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -279,6 +328,7 @@
           <folding>
             <element signature="e#42#61#0" expanded="true" />
             <element signature="e#2232#3199#0" expanded="true" />
+            <element signature="e#7081#7576#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -343,6 +393,7 @@
           <folding>
             <element signature="e#42#61#0" expanded="true" />
             <element signature="e#2232#3199#0" expanded="true" />
+            <element signature="e#7081#7576#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -407,6 +458,7 @@
           <folding>
             <element signature="e#42#61#0" expanded="true" />
             <element signature="e#2232#3199#0" expanded="true" />
+            <element signature="e#7081#7576#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -461,6 +513,7 @@
           <folding>
             <element signature="e#42#61#0" expanded="true" />
             <element signature="e#2232#3199#0" expanded="true" />
+            <element signature="e#7081#7576#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -525,6 +578,7 @@
           <folding>
             <element signature="e#42#61#0" expanded="true" />
             <element signature="e#2232#3199#0" expanded="true" />
+            <element signature="e#7081#7576#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -599,6 +653,7 @@
           <folding>
             <element signature="e#42#61#0" expanded="true" />
             <element signature="e#2232#3199#0" expanded="true" />
+            <element signature="e#7081#7576#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -663,6 +718,7 @@
           <folding>
             <element signature="e#42#61#0" expanded="true" />
             <element signature="e#2232#3199#0" expanded="true" />
+            <element signature="e#7081#7576#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -739,11 +795,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/XMLManager.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="941">
+        <state relative-caret-position="450">
           <caret line="256" column="38" lean-forward="false" selection-start-line="256" selection-start-column="38" selection-end-line="256" selection-end-column="38" />
           <folding>
             <element signature="e#42#61#0" expanded="true" />
             <element signature="e#2232#3199#0" expanded="true" />
+            <element signature="e#7081#7576#0" expanded="true" />
           </folding>
         </state>
       </provider>

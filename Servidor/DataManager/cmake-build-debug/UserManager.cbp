@@ -120,6 +120,9 @@
 		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/DataManager/DataManager.h">
 			<Option target="UserManager"/>
 		</Unit>
+		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/DataManager/SortingFuncts.h">
+			<Option target="UserManager"/>
+		</Unit>
 		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/DataManager/main.cpp">
 			<Option target="UserManager"/>
 		</Unit>

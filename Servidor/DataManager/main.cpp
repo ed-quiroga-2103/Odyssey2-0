@@ -3,18 +3,23 @@
 #include "DataManager.h"
 
 #include "string"
-
 using string = std::string;
 
 int main() {
+/*
+    MySQLConnector sql("root", "85452565", "OdServer");
 
+    QSqlQuery qr(sql.getDB());
 
-    DataManager um;
+    qr.exec("CREATE TABLE `Racso-nots` (name VARCHAR(30) NOT NULL);");
+*/
 
-    std::cout << um.createUser("CesarArce777", "Cesar Arce", "77", 18, "White Metal", "sample@email.com");
-    std::cout << um.logUser("CesarArce777", "77");
+    DataManager dm;
 
-    std::cout << um.editSong("TEST", "Suspect", "Joey Bada$$", "1999", "lyrics");
+    std::cout << dm.rateSong("Suspect", 0);
 
     return 0;
 }
+
+
+
