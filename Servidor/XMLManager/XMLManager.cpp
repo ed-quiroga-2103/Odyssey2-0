@@ -7,7 +7,96 @@
 #include "XMLManager.h"
 
 using Node = pugi::xml_node;
+// METODO PRINCIPAL //
+void *XMLManager::handleClientMessage(string data) {
+    int operation_number = getOpNum(data);
+
+    if(operation_number == 0 ){
+        cout<<"Se quiere registrar un usuario"<<endl;
+        readSingUp(data);
+    }
+    else if(operation_number == 1){
+        cout<<"Se quiere iniciar sesion"<<endl;
+        readSingIn(data);
+
+    }
+    else if(operation_number == 2){
+        cout<<"Se quiere registrar una cancion"<<endl;
+        readRegisterSong(data);
+
+    }
+    else if(operation_number == 3){
+        cout<<"Se quiere eliminar una cancion"<<endl;
+        readDeleteSong(data);
+
+    }
+    else if(operation_number == 4){
+        cout<<"Se quiere actualizar la metadata de una cancion"<<endl;
+        readUpdateMetadata(data);
+
+
+    }
+    else if(operation_number == 5){
+        cout<<"Se quiere buscar una cancion por nombre"<<endl;
+        //ESTA SIN IMPLEMENTAR //
+
+    }
+    else if(operation_number == 6){
+        cout<<"Se quiere buscar una cancion por artista"<<endl;
+        //ESTA SIN IMPLEMENTAR //
+
+    }
+    else if(operation_number == 7){
+        cout<<"Se quiere buscar una cancion por album"<<endl;
+        //ESTA SIN IMPLEMENTAR //
+
+    }
+    else if(operation_number == 8){
+        cout<<"Se quiere buscar una cancion por letra"<<endl;
+        //ESTA SIN IMPLEMENTAR //
+
+    }
+    else if(operation_number == 9){
+        cout<<"Se quiere agregar una amigo"<<endl;
+        readAddFriend(data);
+
+    }
+    else if(operation_number == 10){
+        cout<<"Se quiere recomendar una cancion"<<endl;
+        //ESTA SIN IMPLEMENTAR //
+
+
+    }
+    else if(operation_number == 11){
+        cout<<"Se quiere calificar una cancion"<<endl;
+        readRateSong(data);
+
+    }
+    else if(operation_number == 99){
+        cout<<"Se quieren enviar los chunks de la cancion"<<endl;
+        readSendChunks(data);
+
+    }
+    else if(operation_number == 98){
+        cout<<"Se quiere enviar paginacion de lista de canciones"<<endl;
+        readSongListPaginacion(data);
+    }
+}
 //METODOS DE LECTURA ENTRATES//
+
+void *XMLManager::readSendChunks(string data){
+    pugi::xml_document doc;
+
+    pugi::xml_parse_result result = doc.load_string(data.c_str());
+
+    string name = doc.child("data").child("song").child("name").text().get();
+
+    string pagenumber = doc.child("data").child("song").child("page").text().get();
+
+    std::cout <<"The Song name for for chunks sending is :"<< name << std::endl;
+
+    std::cout <<"The page number for for chunks sending is :"<< pagenumber << std::endl;
+}
 
 int XMLManager::getOpNum(string str) {
     pugi::xml_document doc;
@@ -15,7 +104,48 @@ int XMLManager::getOpNum(string str) {
 
     return std::stoi(doc.child("op").text().get());
 }
+void *XMLManager::readUpdateMetadata(string data) {
 
+    pugi::xml_document doc;
+
+    pugi::xml_parse_result result = doc.load_string(data.c_str());
+
+    string oldname = doc.child("song").child("oldname").text().get();
+
+    string Songname = doc.child("song").child("name").text().get();
+
+    string artist = doc.child("song").child("artist").text().get();
+
+    string album = doc.child("song").child("album").text().get();
+
+    string lyrics = doc.child("song").child("lyrics").text().get();
+
+    string SongBytes = doc.child("song").child("file64").text().get();
+
+    std::cout <<"The Song name for update is:"<<Songname<< std::endl;
+    std::cout <<"The artist for update is:"<< artist<< std::endl;
+    std::cout <<"The album for update is:"<< album << std::endl;
+    std::cout <<"The lyrics for updateis:"<< lyrics << std::endl;
+    std::cout <<"The Bytes for update is:"<< SongBytes << std::endl;
+}
+void *XMLManager::readUpdateUserData(string data) {
+    pugi::xml_document doc;
+
+    pugi::xml_parse_result result = doc.load_string(data.c_str());
+
+    string password = doc.child("user").child("password").text().get();
+
+    string imagebytes = doc.child("user").child("image64").text().get();
+}
+void *XMLManager::readSongListPaginacion(string data){
+    pugi::xml_document doc;
+
+    pugi::xml_parse_result result = doc.load_string(data.c_str());
+
+    string pagenumber = doc.child("page").text().get();
+
+    std::cout <<"The page number is:"<<pagenumber<< std::endl;
+}
 
 void *XMLManager::readSearchSong(string data){
 
@@ -64,7 +194,15 @@ void *XMLManager::readDeletePlaylist(string data){
 
 }
 void *XMLManager::readAddFriend(string data){
+    pugi::xml_document doc;
 
+    pugi::xml_parse_result result = doc.load_string(data.c_str());
+
+    string username = doc.child("data").child("user").child("name").text().get();
+
+
+
+    std::cout <<"The username for add friend is:"<< username << std::endl;
 }
 void *XMLManager::readDeleteSong(string data){
 

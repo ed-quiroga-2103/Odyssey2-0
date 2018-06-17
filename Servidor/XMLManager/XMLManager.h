@@ -10,6 +10,7 @@
 #include "../MySQLConnector/MySQLConnector.h"
 
 using string = std::string;
+using namespace std;
 
 class XMLManager {
 private:
@@ -38,6 +39,7 @@ public:
 
     //Metodos de lectura entrantes del cliente //
 
+    void *handleClientMessage(string data);
     int getOpNum(string str);
     void*readSingIn(string data);
     void *readSingUp(string data);
@@ -48,7 +50,11 @@ public:
     void *readDeletePlaylist(string data);
     void *readAddFriend(string data);
     void *readDeleteFriend(string data);
-    void *readRateSong(string);
+    void *readRateSong(string data);
+    void *readSendChunks(string data);
+    void *readSongListPaginacion(string data);
+    void *readUpdateMetadata(string data);
+    void *readUpdateUserData(string data);
 
 
 };
