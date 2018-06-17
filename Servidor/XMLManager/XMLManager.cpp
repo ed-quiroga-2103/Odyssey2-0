@@ -161,6 +161,7 @@ void *XMLManager::readRateSong(string data){
 
 // FINAL DE METODOS DE LECTURA ENTRANTES //
 
+
 XMLDoc *XMLManager::logInResponse(bool confirm, string username) {
     XMLDoc *doc = new XMLDoc("root");
 
@@ -191,7 +192,7 @@ XMLDoc *XMLManager::logInResponse(bool confirm, string username) {
 
 }
 
-XMLDoc *XMLManager::signIn(bool confirm){
+XMLDoc *XMLManager::signUp(bool confirm){
 
     XMLDoc *doc = new XMLDoc("root");
 
@@ -234,6 +235,19 @@ pugi::xml_node XMLManager::getSongs(pugi::xml_node songsNode, int page) {
 
 
 
+}
+
+XMLDoc *XMLManager::getPaginatedSongs(int page){
+
+    XMLDoc *doc = new XMLDoc("root");
+
+    doc->newChild("op", 98);
+
+    Node data = doc->newChild("songs");
+
+    this->getSongs(data,page);
+
+    return doc;
 }
 
 pugi::xml_node XMLManager::getUserData(pugi::xml_node user, string username){

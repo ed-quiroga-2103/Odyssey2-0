@@ -14,9 +14,8 @@ int main(int argc, char *argv[]) {
 
     XMLManager xml;
 
-    //FALTA HACER TABLA DE NOTIFICACIONES
 
-    XMLDoc* doc = xml.logInResponse(true, "isaac-123");
+    XMLDoc* doc = xml.getPaginatedSongs(0);
 
     std::cout << doc->toString();
 
