@@ -89,9 +89,9 @@ void *XMLManager::readSendChunks(string data){
 
     pugi::xml_parse_result result = doc.load_string(data.c_str());
 
-    string name = doc.child("data").child("song").child("name").text().get();
+    string name = doc.child("root").child("data").child("song").child("name").text().get();
 
-    string pagenumber = doc.child("data").child("song").child("page").text().get();
+    string pagenumber = doc.child("root").child("data").child("song").child("page").text().get();
 
     std::cout <<"The Song name for for chunks sending is :"<< name << std::endl;
 
@@ -102,7 +102,7 @@ int XMLManager::getOpNum(string str) {
     pugi::xml_document doc;
     pugi::xml_parse_result result = doc.load_string(str.c_str());
 
-    return std::stoi(doc.child("op").text().get());
+    return std::stoi(doc.child("root").child("op").text().get());
 }
 void *XMLManager::readUpdateMetadata(string data) {
 
@@ -110,17 +110,17 @@ void *XMLManager::readUpdateMetadata(string data) {
 
     pugi::xml_parse_result result = doc.load_string(data.c_str());
 
-    string oldname = doc.child("song").child("oldname").text().get();
+    string oldname = doc.child("root").child("song").child("oldname").text().get();
 
-    string Songname = doc.child("song").child("name").text().get();
+    string Songname = doc.child("root").child("song").child("name").text().get();
 
-    string artist = doc.child("song").child("artist").text().get();
+    string artist = doc.child("root").child("song").child("artist").text().get();
 
-    string album = doc.child("song").child("album").text().get();
+    string album = doc.child("root").child("song").child("album").text().get();
 
-    string lyrics = doc.child("song").child("lyrics").text().get();
+    string lyrics = doc.child("root").child("song").child("lyrics").text().get();
 
-    string SongBytes = doc.child("song").child("file64").text().get();
+    string SongBytes = doc.child("root").child("song").child("file64").text().get();
 
     std::cout <<"The Song name for update is:"<<Songname<< std::endl;
     std::cout <<"The artist for update is:"<< artist<< std::endl;
@@ -133,16 +133,16 @@ void *XMLManager::readUpdateUserData(string data) {
 
     pugi::xml_parse_result result = doc.load_string(data.c_str());
 
-    string password = doc.child("user").child("password").text().get();
+    string password = doc.child("root").child("user").child("password").text().get();
 
-    string imagebytes = doc.child("user").child("image64").text().get();
+    string imagebytes = doc.child("root").child("user").child("image64").text().get();
 }
 void *XMLManager::readSongListPaginacion(string data){
     pugi::xml_document doc;
 
     pugi::xml_parse_result result = doc.load_string(data.c_str());
 
-    string pagenumber = doc.child("page").text().get();
+    string pagenumber = doc.child("root").child("page").text().get();
 
     std::cout <<"The page number is:"<<pagenumber<< std::endl;
 }
@@ -153,7 +153,7 @@ void *XMLManager::readSearchSong(string data){
 
     pugi::xml_parse_result result = doc.load_string(data.c_str());
 
-    string song_name = doc.child("data").child("song").child("name").text().get();
+    string song_name = doc.child("root").child("data").child("song").child("name").text().get();
 
     std::cout <<"The song name is:"<<song_name<< std::endl;
 
@@ -165,11 +165,11 @@ void *XMLManager::readRegisterPlaylist(string data){
 
     pugi::xml_parse_result result = doc.load_string(data.c_str());
 
-    string user_name = doc.child("data").child("user").child("name").text().get();
+    string user_name = doc.child("root").child("data").child("user").child("name").text().get();
 
-    string playlist_name = doc.child("data").child("playlist").child("name").text().get();
+    string playlist_name = doc.child("root").child("data").child("playlist").child("name").text().get();
 
-    string date_name = doc.child("data").child("playlist").child("date").text().get();
+    string date_name = doc.child("root").child("data").child("playlist").child("date").text().get();
 
     std::cout <<"The username is:"<< user_name << std::endl;
 
@@ -184,9 +184,9 @@ void *XMLManager::readDeletePlaylist(string data){
 
     pugi::xml_parse_result result = doc.load_string(data.c_str());
 
-    string user_name = doc.child("data").child("user").child("name").text().get();
+    string user_name = doc.child("root").child("data").child("user").child("name").text().get();
 
-    string playlist_name = doc.child("data").child("playlist").child("name").text().get();
+    string playlist_name = doc.child("root").child("data").child("playlist").child("name").text().get();
 
     std::cout <<"The username for delete playlist is:"<< user_name << std::endl;
 
@@ -198,7 +198,7 @@ void *XMLManager::readAddFriend(string data){
 
     pugi::xml_parse_result result = doc.load_string(data.c_str());
 
-    string username = doc.child("data").child("user").child("name").text().get();
+    string username = doc.child("root").child("data").child("user").child("name").text().get();
 
 
 
@@ -210,7 +210,7 @@ void *XMLManager::readDeleteSong(string data){
 
     pugi::xml_parse_result result = doc.load_string(data.c_str());
 
-    string Songname = doc.child("data").child("song").child("name").text().get();
+    string Songname = doc.child("root").child("data").child("song").child("name").text().get();
 
 
 
@@ -224,15 +224,15 @@ void *XMLManager::readRegisterSong(string data){
 
     pugi::xml_parse_result result = doc.load_string(data.c_str());
 
-    string Songname = doc.child("data").child("song").child("name").text().get();
+    string Songname = doc.child("root").child("data").child("song").child("name").text().get();
 
-    string artist = doc.child("data").child("song").child("artist").text().get();
+    string artist = doc.child("root").child("data").child("song").child("artist").text().get();
 
-    string album = doc.child("data").child("song").child("album").text().get();
+    string album = doc.child("root").child("data").child("song").child("album").text().get();
 
-    string lyrics = doc.child("data").child("song").child("lyrics").text().get();
+    string lyrics = doc.child("root").child("data").child("song").child("lyrics").text().get();
 
-    string SongBytes = doc.child("data").child("song").child("file64").text().get();
+    string SongBytes = doc.child("root").child("data").child("song").child("file64").text().get();
 
     std::cout <<"The Song name is:"<<Songname<< std::endl;
     std::cout <<"The artist is:"<< artist<< std::endl;
@@ -247,15 +247,15 @@ void *XMLManager::readSingUp(string data){
 
     pugi::xml_parse_result result = doc.load_string(data.c_str());
 
-    string name = doc.child("data").child("user").child("name").text().get();
+    string name = doc.child("root").child("data").child("user").child("name").text().get();
 
-    string username = doc.child("data").child("user").child("username").text().get();
+    string username = doc.child("root").child("data").child("user").child("username").text().get();
 
-    string age = doc.child("data").child("user").child("age").text().get();
+    string age = doc.child("root").child("data").child("user").child("age").text().get();
 
-    string password = doc.child("data").child("user").child("password").text().get();
+    string password = doc.child("root").child("data").child("user").child("password").text().get();
 
-    string email = doc.child("data").child("user").child("email").text().get();
+    string email = doc.child("root").child("data").child("user").child("email").text().get();
 
     std::cout <<"The name is:"<<name<< std::endl;
     std::cout <<"The username is:"<<username<< std::endl;
@@ -267,9 +267,9 @@ void *XMLManager::readSingIn(string data){
     pugi::xml_document doc;
     pugi::xml_parse_result result = doc.load_string(data.c_str());
 
-    string username = doc.child("data").child("user").child("username").text().get();
+    string username = doc.child("root").child("data").child("user").child("username").text().get();
 
-    string password = doc.child("data").child("user").child("password").text().get();
+    string password = doc.child("root").child("data").child("user").child("password").text().get();
 
     std::cout <<"The username is:"<<username<< std::endl;
     std::cout <<"The password is:"<<password<< std::endl;
@@ -278,7 +278,7 @@ void *XMLManager::readDeleteFriend(string data){
     pugi::xml_document doc;
     pugi::xml_parse_result result = doc.load_string(data.c_str());
 
-    string username = doc.child("data").child("user").child("name").text().get();
+    string username = doc.child("root").child("data").child("user").child("name").text().get();
 
     std::cout <<"The username for delete friend is:"<<username<< std::endl;
 
@@ -286,10 +286,10 @@ void *XMLManager::readDeleteFriend(string data){
 void *XMLManager::readRateSong(string data){
     pugi::xml_document doc;
     pugi::xml_parse_result result = doc.load_string(data.c_str());
-    string name = doc.child("data").child("song").child("name").text().get();
-    string votes = doc.child("data").child("song").child("votes").text().get();
-    string sum = doc.child("data").child("song").child("sum").text().get();
-    string rating = doc.child("data").child("song").child("rating").text().get();
+    string name = doc.child("root").child("data").child("song").child("name").text().get();
+    string votes = doc.child("root").child("data").child("song").child("votes").text().get();
+    string sum = doc.child("root").child("data").child("song").child("sum").text().get();
+    string rating = doc.child("root").child("data").child("song").child("rating").text().get();
 
     std::cout <<"The name for rate song is:"<<name<< std::endl;
     std::cout <<"The votes for rate song is:"<<votes<< std::endl;
@@ -298,7 +298,6 @@ void *XMLManager::readRateSong(string data){
 }
 
 // FINAL DE METODOS DE LECTURA ENTRANTES //
-
 
 XMLDoc *XMLManager::logInResponse(bool confirm, string username) {
     XMLDoc *doc = new XMLDoc("root");
@@ -330,7 +329,7 @@ XMLDoc *XMLManager::logInResponse(bool confirm, string username) {
 
 }
 
-XMLDoc *XMLManager::signUp(bool confirm){
+XMLDoc *XMLManager::signIn(bool confirm){
 
     XMLDoc *doc = new XMLDoc("root");
 
@@ -373,19 +372,6 @@ pugi::xml_node XMLManager::getSongs(pugi::xml_node songsNode, int page) {
 
 
 
-}
-
-XMLDoc *XMLManager::getPaginatedSongs(int page){
-
-    XMLDoc *doc = new XMLDoc("root");
-
-    doc->newChild("op", 98);
-
-    Node data = doc->newChild("songs");
-
-    this->getSongs(data,page);
-
-    return doc;
 }
 
 pugi::xml_node XMLManager::getUserData(pugi::xml_node user, string username){
@@ -581,4 +567,3 @@ XMLDoc* XMLManager::deleteSongResponse(bool confirm) {
     return doc;
 
 }
-
