@@ -162,7 +162,7 @@
 
 *************************************************************************************************************************************
 
-************************************************************Delete Song**************************************************************
+************************************************************DeleteSong**************************************************************
 
 //Client
 
@@ -330,8 +330,8 @@
 //Client
 	
   	<op>#</op>																							// operation # = 4
-  	<song>
-    	<oldname>somename</oldname>
+  <song>
+     <oldname>somename</oldname>
       <name>somename</name>
       <artist>someartist</artist>
       <album>somealbum</album>
@@ -365,8 +365,8 @@
 //Client
 
 	<op>#</op>																							// operation # = 13 (new)
-	<user>
-  	<password>somepassword</password>
+<user>
+    <password>somepassword</password>
     <image64>someimage<image64>
   </user>
 

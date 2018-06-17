@@ -4,11 +4,19 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+<<<<<<< HEAD
   "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLManager.cpp" "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug/CMakeFiles/XMLManager.dir/XMLManager.cpp.o"
   "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLParts.cpp" "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug/CMakeFiles/XMLManager.dir/XMLParts.cpp.o"
   "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/MySQLConnector/MySQLConnector.cpp" "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug/CMakeFiles/XMLManager.dir/home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/MySQLConnector/MySQLConnector.cpp.o"
   "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/main.cpp" "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug/CMakeFiles/XMLManager.dir/main.cpp.o"
   "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/pugixml.cpp" "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug/CMakeFiles/XMLManager.dir/pugixml.cpp.o"
+=======
+  "/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/XMLManager.cpp" "/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug/CMakeFiles/XMLManager.dir/XMLManager.cpp.o"
+  "/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/XMLParts.cpp" "/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug/CMakeFiles/XMLManager.dir/XMLParts.cpp.o"
+  "/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/MySQLConnector/MySQLConnector.cpp" "/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug/CMakeFiles/XMLManager.dir/home/isaac/Escritorio/Proyecto_Programado_3/Odyssey2-0/Servidor/MySQLConnector/MySQLConnector.cpp.o"
+  "/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/main.cpp" "/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug/CMakeFiles/XMLManager.dir/main.cpp.o"
+  "/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/pugixml.cpp" "/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug/CMakeFiles/XMLManager.dir/pugixml.cpp.o"
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -27,7 +35,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../../MySQLConnector"
   "/usr/include/x86_64-linux-gnu/qt5"
   "/usr/include/x86_64-linux-gnu/qt5/QtCore"
+<<<<<<< HEAD
   "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"
+=======
+  "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
   "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
   "/usr/include/x86_64-linux-gnu/qt5/QtGui"
   "/usr/include/x86_64-linux-gnu/qt5/QtSql"

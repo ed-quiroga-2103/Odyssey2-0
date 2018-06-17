@@ -6,9 +6,15 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/MySQLConnector/MySQLConnector.cpp
 MySQLConnector.h
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/MySQLConnector/MySQLConnector.h
+=======
+/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/MySQLConnector/MySQLConnector.cpp
+MySQLConnector.h
+/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/MySQLConnector/MySQLConnector.h
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtSql
 -
 QtCore/QCoreApplication
@@ -20,9 +26,15 @@ QApplication
 QDebug
 -
 
+<<<<<<< HEAD
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/MySQLConnector/MySQLConnector.h
 string
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/MySQLConnector/string
+=======
+/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/MySQLConnector/MySQLConnector.h
+string
+/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/MySQLConnector/string
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtSql
 -
 QtCore/QCoreApplication
@@ -34,12 +46,17 @@ QApplication
 QDebug
 -
 
+<<<<<<< HEAD
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLManager.cpp
+=======
+/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/XMLManager.cpp
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 iostream
 -
 sstream
 -
 XMLManager.h
+<<<<<<< HEAD
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLManager.h
 
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLManager.h
@@ -53,11 +70,27 @@ string
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLParts.cpp
 XMLParts.h
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLParts.h
+=======
+/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/XMLManager.h
+
+/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/XMLManager.h
+XMLParts.h
+/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/XMLParts.h
+string
+/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/string
+../MySQLConnector/MySQLConnector.h
+/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/MySQLConnector/MySQLConnector.h
+
+/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/XMLParts.cpp
+XMLParts.h
+/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/XMLParts.h
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 iostream
 -
 sstream
 -
 XMLParts.h
+<<<<<<< HEAD
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLParts.h
 pugixml.hpp
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/pugixml.hpp
@@ -71,6 +104,21 @@ string
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/string
 
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/main.cpp
+=======
+/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/XMLParts.h
+pugixml.hpp
+/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/pugixml.hpp
+string
+/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/string
+
+/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/XMLParts.h
+pugixml.hpp
+/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/pugixml.hpp
+string
+/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/string
+
+/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/main.cpp
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 iostream
 -
 QtCore/QCoreApplication
@@ -84,6 +132,7 @@ QDebug
 QDomDocument
 -
 XMLParts.h
+<<<<<<< HEAD
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLParts.h
 XMLManager.h
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLManager.h
@@ -93,6 +142,17 @@ XMLManager.h
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/pugixml.cpp
 pugixml.hpp
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/pugixml.hpp
+=======
+/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/XMLParts.h
+XMLManager.h
+/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/XMLManager.h
+
+/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/pugiconfig.hpp
+
+/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/pugixml.cpp
+pugixml.hpp
+/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/pugixml.hpp
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 stdlib.h
 -
 stdio.h
@@ -120,9 +180,15 @@ new
 stdint.h
 -
 
+<<<<<<< HEAD
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/pugixml.hpp
 pugiconfig.hpp
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/pugiconfig.hpp
+=======
+/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/pugixml.hpp
+pugiconfig.hpp
+/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/pugiconfig.hpp
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 stddef.h
 -
 exception
@@ -157,6 +223,7 @@ qstringlist.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore
 QtCore/QtCoreDepends
 -
+<<<<<<< HEAD
 qabstractanimation.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractanimation.h
 qanimationgroup.h
@@ -327,10 +394,25 @@ qpluginloader.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qpluginloader.h
 quuid.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/quuid.h
+=======
+qglobal.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h
+qabstractanimation.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractanimation.h
+qabstracteventdispatcher.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qabstracteventdispatcher.h
+qabstractitemmodel.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
+qabstractnativeeventfilter.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractnativeeventfilter.h
+qabstractproxymodel.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractproxymodel.h
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 qabstractstate.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractstate.h
 qabstracttransition.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstracttransition.h
+<<<<<<< HEAD
 qeventtransition.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventtransition.h
 qfinalstate.h
@@ -377,14 +459,31 @@ qwaitcondition.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qwaitcondition.h
 qalgorithms.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
+=======
+qalgorithms.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
+qanimationgroup.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qanimationgroup.h
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 qarraydata.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
 qarraydataops.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydataops.h
 qarraydatapointer.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydatapointer.h
+<<<<<<< HEAD
 qbitarray.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qbitarray.h
+=======
+qatomic.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
+qbasictimer.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h
+qbitarray.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qbitarray.h
+qbuffer.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qbuffer.h
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 qbytearray.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h
 qbytearraylist.h
@@ -401,22 +500,115 @@ qcommandlineoption.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcommandlineoption.h
 qcommandlineparser.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcommandlineparser.h
+<<<<<<< HEAD
+=======
+qcompilerdetection.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 qcontainerfwd.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h
 qcontiguouscache.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h
+<<<<<<< HEAD
 qcryptographichash.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcryptographichash.h
 qdatetime.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatetime.h
+=======
+qcoreapplication.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h
+qcoreevent.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h
+qcryptographichash.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcryptographichash.h
+qdatastream.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h
+qdatetime.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdatetime.h
+qdeadlinetimer.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdeadlinetimer.h
+qdebug.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h
+qdir.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h
+qdiriterator.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdiriterator.h
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 qeasingcurve.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qeasingcurve.h
 qelapsedtimer.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qelapsedtimer.h
+<<<<<<< HEAD
 qhash.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h
 qiterator.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
+=======
+qendian.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qendian.h
+qeventloop.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h
+qeventtransition.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qeventtransition.h
+qexception.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qexception.h
+qfactoryinterface.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qfactoryinterface.h
+qfile.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h
+qfiledevice.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h
+qfileinfo.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qfileinfo.h
+qfileselector.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qfileselector.h
+qfilesystemwatcher.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qfilesystemwatcher.h
+qfinalstate.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qfinalstate.h
+qflags.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h
+qfuture.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qfuture.h
+qfutureinterface.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qfutureinterface.h
+qfuturesynchronizer.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qfuturesynchronizer.h
+qfuturewatcher.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qfuturewatcher.h
+qgenericatomic.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h
+qglobalstatic.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h
+qhash.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h
+qhashfunctions.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h
+qhistorystate.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qhistorystate.h
+qidentityproxymodel.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qidentityproxymodel.h
+qiodevice.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h
+qisenum.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qisenum.h
+qitemselectionmodel.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qitemselectionmodel.h
+qiterator.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
+qjsonarray.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonarray.h
+qjsondocument.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qjsondocument.h
+qjsonobject.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonobject.h
+qjsonvalue.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonvalue.h
+qlibrary.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qlibrary.h
+qlibraryinfo.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qlibraryinfo.h
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 qline.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h
 qlinkedlist.h
@@ -425,10 +617,18 @@ qlist.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
 qlocale.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h
+<<<<<<< HEAD
+=======
+qlockfile.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qlockfile.h
+qloggingcategory.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qloggingcategory.h
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 qmap.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h
 qmargins.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h
+<<<<<<< HEAD
 qmessageauthenticationcode.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qmessageauthenticationcode.h
 qpair.h
@@ -437,6 +637,60 @@ qpoint.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h
 qqueue.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qqueue.h
+=======
+qmath.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmath.h
+qmessageauthenticationcode.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmessageauthenticationcode.h
+qmetaobject.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmetaobject.h
+qmetatype.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h
+qmimedata.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmimedata.h
+qmimedatabase.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmimedatabase.h
+qmimetype.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmimetype.h
+qmutex.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmutex.h
+qnamespace.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h
+qnumeric.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h
+qobject.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h
+qobjectcleanuphandler.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectcleanuphandler.h
+qobjectdefs.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h
+qoperatingsystemversion.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qoperatingsystemversion.h
+qpair.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h
+qparallelanimationgroup.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qparallelanimationgroup.h
+qpauseanimation.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qpauseanimation.h
+qplugin.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qplugin.h
+qpluginloader.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qpluginloader.h
+qpoint.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h
+qpointer.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qpointer.h
+qprocess.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h
+qprocessordetection.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h
+qpropertyanimation.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qpropertyanimation.h
+qqueue.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qqueue.h
+qreadwritelock.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qreadwritelock.h
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 qrect.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h
 qrefcount.h
@@ -445,10 +699,22 @@ qregexp.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h
 qregularexpression.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h
+<<<<<<< HEAD
+=======
+qresource.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qresource.h
+qresultstore.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qresultstore.h
+qrunnable.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qrunnable.h
+qsavefile.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsavefile.h
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 qscopedpointer.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h
 qscopedvaluerollback.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedvaluerollback.h
+<<<<<<< HEAD
 qset.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h
 qshareddata.h
@@ -459,12 +725,49 @@ qsize.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h
 qstack.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qstack.h
+=======
+qsemaphore.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsemaphore.h
+qsequentialanimationgroup.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsequentialanimationgroup.h
+qset.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h
+qsettings.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h
+qshareddata.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h
+qsharedmemory.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedmemory.h
+qsharedpointer.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h
+qsignalmapper.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsignalmapper.h
+qsignaltransition.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsignaltransition.h
+qsize.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h
+qsocketnotifier.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsocketnotifier.h
+qsortfilterproxymodel.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsortfilterproxymodel.h
+qstack.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstack.h
+qstandardpaths.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstandardpaths.h
+qstate.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstate.h
+qstatemachine.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstatemachine.h
+qstorageinfo.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstorageinfo.h
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 qstring.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h
 qstringbuilder.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringbuilder.h
 qstringlist.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h
+<<<<<<< HEAD
 qstringmatcher.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h
 qtextboundaryfinder.h
@@ -473,10 +776,71 @@ qtimeline.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimeline.h
 qtimezone.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimezone.h
+=======
+qstringlistmodel.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlistmodel.h
+qstringmatcher.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h
+qsysinfo.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h
+qsystemdetection.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h
+qsystemsemaphore.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemsemaphore.h
+qtemporarydir.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qtemporarydir.h
+qtemporaryfile.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qtemporaryfile.h
+qtextboundaryfinder.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qtextboundaryfinder.h
+qtextcodec.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qtextcodec.h
+qtextstream.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h
+qthread.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qthread.h
+qthreadpool.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qthreadpool.h
+qthreadstorage.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qthreadstorage.h
+qtimeline.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qtimeline.h
+qtimer.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h
+qtimezone.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qtimezone.h
+qtranslator.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qtranslator.h
+qtypeinfo.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
+qtypetraits.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qtypetraits.h
+qurl.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h
+qurlquery.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qurlquery.h
+quuid.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/quuid.h
+qvariant.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h
+qvariantanimation.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qvariantanimation.h
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 qvarlengtharray.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
 qvector.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
+<<<<<<< HEAD
+=======
+qversionnumber.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qversionnumber.h
+qversiontagging.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+qwaitcondition.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qwaitcondition.h
+qwineventnotifier.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qwineventnotifier.h
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 qxmlstream.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qxmlstream.h
 qtcoreversion.h
@@ -525,6 +889,11 @@ QtCore/qlist.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
 QtCore/qglobal.h
 -
+<<<<<<< HEAD
+=======
+intrin.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qanimationgroup.h
 QtCore/qabstractanimation.h
@@ -554,6 +923,7 @@ QtCore/qglobal.h
 QtCore/qbasicatomic.h
 -
 
+<<<<<<< HEAD
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_armv5.h
 QtCore/qgenericatomic.h
 -
@@ -566,6 +936,8 @@ QtCore/qgenericatomic.h
 QtCore/qatomic_armv6.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore/qatomic_armv6.h
 
+=======
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_bootstrap.h
 QtCore/qgenericatomic.h
 -
@@ -576,6 +948,7 @@ QtCore/qgenericatomic.h
 atomic
 -
 
+<<<<<<< HEAD
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_gcc.h
 QtCore/qgenericatomic.h
 -
@@ -601,6 +974,11 @@ QtCore/qgenericatomic.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_x86.h
 QtCore/qgenericatomic.h
 -
+=======
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_msvc.h
+QtCore/qgenericatomic.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h
 QtCore/qatomic.h
@@ -609,6 +987,7 @@ QtCore/qatomic_bootstrap.h
 -
 QtCore/qatomic_cxx11.h
 -
+<<<<<<< HEAD
 QtCore/qatomic_gcc.h
 -
 QtCore/qatomic_msvc.h
@@ -629,6 +1008,10 @@ QtCore/qatomic_gcc.h
 -
 QtCore/qatomic_unix.h
 -
+=======
+QtCore/qatomic_msvc.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h
 QtCore/qglobal.h
@@ -661,6 +1044,11 @@ stdarg.h
 -
 string
 -
+<<<<<<< HEAD
+=======
+iterator
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtCore/qstring.h
 -
 
@@ -710,6 +1098,11 @@ QtCore/qglobal.h
 utility
 -
 
+<<<<<<< HEAD
+=======
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig-bootstrapped.h
+
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h
@@ -749,6 +1142,11 @@ QtCore/qobjectdefs.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcryptographichash.h
 QtCore/qbytearray.h
 -
+<<<<<<< HEAD
+=======
+QtCore/qobjectdefs.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h
 QtCore/qscopedpointer.h
@@ -768,6 +1166,21 @@ QtCore/qshareddata.h
 limits
 -
 
+<<<<<<< HEAD
+=======
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdeadlinetimer.h
+QtCore/qelapsedtimer.h
+-
+QtCore/qmetatype.h
+-
+QtCore/qnamespace.h
+-
+limits
+-
+chrono
+-
+
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h
 QtCore/qalgorithms.h
 -
@@ -789,6 +1202,19 @@ QtCore/qset.h
 -
 QtCore/qcontiguouscache.h
 -
+<<<<<<< HEAD
+=======
+QtCore/qsharedpointer.h
+-
+vector
+-
+list
+-
+map
+-
+utility
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h
 QtCore/qstring.h
@@ -854,8 +1280,11 @@ QtCore/qobject.h
 QtCore/qstringlist.h
 -
 
+<<<<<<< HEAD
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qfeatures.h
 
+=======
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h
 QtCore/qfiledevice.h
 -
@@ -897,10 +1326,13 @@ QtCore/qabstractstate.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h
 QtCore/qglobal.h
 -
+<<<<<<< HEAD
 QtCore/qtypeinfo.h
 -
 QtCore/qtypetraits.h
 -
+=======
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 initializer_list
 -
 
@@ -939,6 +1371,7 @@ QtCore/qtypeinfo.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h
+<<<<<<< HEAD
 cstddef
 -
 stddef.h
@@ -946,6 +1379,21 @@ stddef.h
 QtCore/qconfig.h
 -
 QtCore/qfeatures.h
+=======
+type_traits
+-
+cstddef
+-
+utility
+-
+stddef.h
+-
+QtCore/qconfig-bootstrapped.h
+-
+QtCore/qconfig.h
+-
+QtCore/qtcore-config.h
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 -
 QtCore/qsystemdetection.h
 -
@@ -969,6 +1417,11 @@ QtCore/qglobalstatic.h
 -
 QtCore/qnumeric.h
 -
+<<<<<<< HEAD
+=======
+QtCore/qversiontagging.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h
 QtCore/qglobal.h
@@ -985,6 +1438,7 @@ QtCore/qiterator.h
 -
 QtCore/qlist.h
 -
+<<<<<<< HEAD
 QtCore/qpair.h
 -
 QtCore/qrefcount.h
@@ -993,6 +1447,24 @@ numeric
 -
 initializer_list
 -
+=======
+QtCore/qrefcount.h
+-
+QtCore/qhashfunctions.h
+-
+initializer_list
+-
+algorithm
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h
+QtCore/qchar.h
+-
+QtCore/qpair.h
+-
+numeric
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qhistorystate.h
 QtCore/qabstractstate.h
@@ -1017,10 +1489,17 @@ QtCore/qstring.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qisenum.h
 QtCore/qglobal.h
 -
+<<<<<<< HEAD
 QtCore/qtypetraits.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qitemselectionmodel.h
+=======
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qitemselectionmodel.h
+QtCore/qglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtCore/qset.h
 -
 QtCore/qvector.h
@@ -1071,6 +1550,11 @@ QtCore/qstring.h
 -
 QtCore/qdatetime.h
 -
+<<<<<<< HEAD
+=======
+QtCore/qversionnumber.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h
 QtCore/qpoint.h
@@ -1099,6 +1583,11 @@ QtCore/qrefcount.h
 -
 QtCore/qarraydata.h
 -
+<<<<<<< HEAD
+=======
+QtCore/qhashfunctions.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 iterator
 -
 list
@@ -1161,6 +1650,11 @@ map
 -
 new
 -
+<<<<<<< HEAD
+=======
+functional
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 initializer_list
 -
 
@@ -1171,6 +1665,11 @@ QtCore/qnamespace.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qmath.h
 QtCore/qglobal.h
 -
+<<<<<<< HEAD
+=======
+QtCore/qalgorithms.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 cmath
 -
 
@@ -1193,10 +1692,13 @@ QtCore/qbytearray.h
 -
 QtCore/qvarlengtharray.h
 -
+<<<<<<< HEAD
 QtCore/qisenum.h
 -
 QtCore/qtypetraits.h
 -
+=======
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtCore/qobjectdefs.h
 -
 new
@@ -1235,6 +1737,13 @@ QtCore/qatomic.h
 -
 new
 -
+<<<<<<< HEAD
+=======
+chrono
+-
+limits
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h
 QtCore/qglobal.h
@@ -1261,6 +1770,11 @@ QtCore/qmetatype.h
 -
 QtCore/qobject_impl.h
 -
+<<<<<<< HEAD
+=======
+chrono
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h
 
@@ -1278,6 +1792,13 @@ QtCore/qobjectdefs_impl.h
 QtCore/qnamespace.h
 -
 
+<<<<<<< HEAD
+=======
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qoperatingsystemversion.h
+QtCore/qglobal.h
+-
+
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h
 QtCore/qglobal.h
 -
@@ -1299,6 +1820,11 @@ QtCore/qjsonobject.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qpluginloader.h
+<<<<<<< HEAD
+=======
+QtCore/qglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtCore/qlibrary.h
 -
 QtCore/qplugin.h
@@ -1311,6 +1837,11 @@ QtCore/qnamespace.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qpointer.h
 QtCore/qsharedpointer.h
 -
+<<<<<<< HEAD
+=======
+QtCore/qtypeinfo.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h
 QtCore/qiodevice.h
@@ -1319,6 +1850,11 @@ QtCore/qstringlist.h
 -
 QtCore/qshareddata.h
 -
+<<<<<<< HEAD
+=======
+functional
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h
 QtCore/qglobal.h
@@ -1375,6 +1911,11 @@ QtCore/qstringlist.h
 -
 QtCore/qlist.h
 -
+<<<<<<< HEAD
+=======
+QtCore/qscopedpointer.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qresultstore.h
 QtCore/qglobal.h
@@ -1419,6 +1960,11 @@ QtCore/qhash.h
 -
 initializer_list
 -
+<<<<<<< HEAD
+=======
+iterator
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h
 QtCore/qobject.h
@@ -1439,6 +1985,11 @@ QtCore/qatomic.h
 -
 QtCore/qhash.h
 -
+<<<<<<< HEAD
+=======
+QtCore/qhashfunctions.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedmemory.h
 QtCore/qobject.h
@@ -1463,7 +2014,11 @@ QtCore/qobject.h
 -
 QtCore/qhash.h
 -
+<<<<<<< HEAD
 utility
+=======
+QtCore/qhashfunctions.h
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qsignalmapper.h
@@ -1473,6 +2028,11 @@ QtCore/qobject.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qsignaltransition.h
 QtCore/qabstracttransition.h
 -
+<<<<<<< HEAD
+=======
+QtCore/qmetaobject.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h
 QtCore/qnamespace.h
@@ -1495,6 +2055,11 @@ QtCore/qvector.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qstandardpaths.h
 QtCore/qstringlist.h
 -
+<<<<<<< HEAD
+=======
+QtCore/qobjectdefs.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qstate.h
 QtCore/qabstractstate.h
@@ -1543,6 +2108,11 @@ QtCore/qnamespace.h
 -
 string
 -
+<<<<<<< HEAD
+=======
+iterator
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 stdarg.h
 -
 QtCore/qstringbuilder.h
@@ -1598,6 +2168,11 @@ QtCore/qstring.h
 QtCore/qscopedpointer.h
 -
 
+<<<<<<< HEAD
+=======
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h
+
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcoreversion.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qtemporarydir.h
@@ -1669,6 +2244,11 @@ QtCore/qbasictimer.h
 -
 QtCore/qobject.h
 -
+<<<<<<< HEAD
+=======
+chrono
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimezone.h
 QtCore/qshareddata.h
@@ -1685,14 +2265,21 @@ QtCore/qbytearray.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
+<<<<<<< HEAD
 QtCore/qtypetraits.h
+=======
+QtCore/qglobal.h
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypetraits.h
 QtCore/qglobal.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore/qglobal.h
+<<<<<<< HEAD
 utility
 -
+=======
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h
 QtCore/qbytearray.h
@@ -1775,6 +2362,11 @@ algorithm
 -
 initializer_list
 -
+<<<<<<< HEAD
+=======
+iterator
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
 QtCore/qalgorithms.h
@@ -1787,6 +2379,11 @@ QtCore/qrefcount.h
 -
 QtCore/qarraydata.h
 -
+<<<<<<< HEAD
+=======
+QtCore/qhashfunctions.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 iterator
 -
 vector
@@ -1802,6 +2399,25 @@ algorithm
 QtCore/qpoint.h
 -
 
+<<<<<<< HEAD
+=======
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qversionnumber.h
+QtCore/qnamespace.h
+-
+QtCore/qstring.h
+-
+QtCore/qvector.h
+-
+QtCore/qmetatype.h
+-
+QtCore/qtypeinfo.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+QtCore/qglobal.h
+-
+
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qwaitcondition.h
 QtCore/qglobal.h
 -
@@ -1823,6 +2439,11 @@ QtCore/qscopedpointer.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
+<<<<<<< HEAD
+=======
+QtGui/qtguiglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtCore/qpair.h
 -
 QtCore/qpoint.h
@@ -1843,23 +2464,43 @@ QtGui/qpixmap.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
+<<<<<<< HEAD
+=======
+QtGui/qtguiglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtGui/qrgb.h
 -
 QtCore/qnamespace.h
 -
 QtCore/qstringlist.h
 -
+<<<<<<< HEAD
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
+=======
+QtGui/qrgba64.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
+QtGui/qtguiglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtCore/qpoint.h
 -
 QtGui/qwindowdefs.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h
+<<<<<<< HEAD
 QtGui/qwindowdefs.h
 -
 QtCore/qobject.h
+=======
+QtGui/qtguiglobal.h
+-
+QtGui/qwindowdefs.h
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 -
 QtGui/qregion.h
 -
@@ -1889,6 +2530,11 @@ QtGui/qtouchdevice.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h
+<<<<<<< HEAD
+=======
+QtGui/qtguiglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtGui/qwindowdefs.h
 -
 QtCore/qstring.h
@@ -1897,12 +2543,22 @@ QtCore/qsharedpointer.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h
+<<<<<<< HEAD
+=======
+QtGui/qtguiglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtGui/qfont.h
 -
 QtCore/qsharedpointer.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h
+<<<<<<< HEAD
+=======
+QtGui/qtguiglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtGui/qfont.h
 -
 QtCore/qsharedpointer.h
@@ -1911,6 +2567,11 @@ QtCore/qrect.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h
+<<<<<<< HEAD
+=======
+QtGui/qtguiglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtCore/qcoreapplication.h
 -
 QtGui/qwindowdefs.h
@@ -1925,7 +2586,11 @@ QtCore/qsize.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h
+<<<<<<< HEAD
 QtCore/qglobal.h
+=======
+QtGui/qtguiglobal.h
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 -
 QtCore/qsize.h
 -
@@ -1935,6 +2600,7 @@ QtGui/qpixmap.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h
+<<<<<<< HEAD
 QtGui/qtransform.h
 -
 QtGui/qpaintdevice.h
@@ -1943,6 +2609,20 @@ QtGui/qrgb.h
 -
 QtGui/qpixelformat.h
 -
+=======
+QtGui/qtguiglobal.h
+-
+QtGui/qcolor.h
+-
+QtGui/qrgb.h
+-
+QtGui/qpaintdevice.h
+-
+QtGui/qpixelformat.h
+-
+QtGui/qtransform.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtCore/qbytearray.h
 -
 QtCore/qrect.h
@@ -1953,11 +2633,20 @@ QtCore/qstringlist.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h
+<<<<<<< HEAD
+=======
+QtGui/qtguiglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtCore/qobject.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h
+<<<<<<< HEAD
 QtCore/qnamespace.h
+=======
+QtGui/qtguiglobal.h
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 -
 QtCore/qstring.h
 -
@@ -1965,6 +2654,11 @@ QtCore/qobjectdefs.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h
+<<<<<<< HEAD
+=======
+QtGui/qtguiglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtGui/qpolygon.h
 -
 QtGui/qregion.h
@@ -1979,12 +2673,22 @@ QtCore/qrect.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h
+<<<<<<< HEAD
+=======
+QtGui/qtguiglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtGui/qwindowdefs.h
 -
 QtCore/qrect.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainterpath.h
+<<<<<<< HEAD
+=======
+QtGui/qtguiglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtGui/qmatrix.h
 -
 QtCore/qglobal.h
@@ -1999,6 +2703,11 @@ QtCore/qscopedpointer.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h
+<<<<<<< HEAD
+=======
+QtGui/qtguiglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtGui/qwindowdefs.h
 -
 QtGui/qcolor.h
@@ -2007,10 +2716,19 @@ QtGui/qbrush.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h
+<<<<<<< HEAD
 QtCore/qglobal.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h
+=======
+QtGui/qtguiglobal.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h
+QtGui/qtguiglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtGui/qpaintdevice.h
 -
 QtGui/qcolor.h
@@ -2027,6 +2745,11 @@ QtGui/qtransform.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h
+<<<<<<< HEAD
+=======
+QtGui/qtguiglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtCore/qvector.h
 -
 QtCore/qpoint.h
@@ -2035,6 +2758,11 @@ QtCore/qrect.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h
+<<<<<<< HEAD
+=======
+QtGui/qtguiglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtCore/qatomic.h
 -
 QtCore/qrect.h
@@ -2045,16 +2773,45 @@ QtCore/qdatastream.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h
+<<<<<<< HEAD
 QtCore/qglobal.h
+=======
+QtGui/qtguiglobal.h
 -
 QtCore/qprocessordetection.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h
+QtGui/qtguiglobal.h
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
+-
+QtCore/qprocessordetection.h
+-
+
+<<<<<<< HEAD
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h
+=======
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h
+QtCore/qglobal.h
+-
+QtGui/qtgui-config.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h
+QtGui/qtguiglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtCore/qobject.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h
+<<<<<<< HEAD
+=======
+QtGui/qtguiglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtGui/qmatrix.h
 -
 QtGui/qpainterpath.h
@@ -2073,6 +2830,11 @@ QtCore/qrect.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h
+<<<<<<< HEAD
+=======
+QtGui/qtguiglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtCore/qobject.h
 -
 QtCore/qstring.h
@@ -2085,13 +2847,22 @@ QtCore/qlocale.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h
+<<<<<<< HEAD
+=======
+QtGui/qtguiglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtCore/qpoint.h
 -
 QtCore/qmetatype.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
+<<<<<<< HEAD
 QtCore/qglobal.h
+=======
+QtGui/qtguiglobal.h
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 -
 QtCore/qobjectdefs.h
 -
@@ -2101,14 +2872,23 @@ QtGui/qwindowdefs_win.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
+<<<<<<< HEAD
 QtCore/qglobal.h
+=======
+QtGui/qtguiglobal.h
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtSql/QtSql
 QtSql/QtSqlDepends
 -
+<<<<<<< HEAD
 qsql.h
 /usr/include/x86_64-linux-gnu/qt5/QtSql/qsql.h
+=======
+qtsqlglobal.h
+/usr/include/x86_64-linux-gnu/qt5/QtSql/qtsqlglobal.h
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 qsqldatabase.h
 /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldatabase.h
 qsqldriver.h
@@ -2123,16 +2903,28 @@ qsqlindex.h
 /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlindex.h
 qsqlquery.h
 /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlquery.h
+<<<<<<< HEAD
 qsqlrecord.h
 /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlrecord.h
 qsqlresult.h
 /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlresult.h
 qsqlquerymodel.h
 /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlquerymodel.h
+=======
+qsqlquerymodel.h
+/usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlquerymodel.h
+qsqlrecord.h
+/usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlrecord.h
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 qsqlrelationaldelegate.h
 /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlrelationaldelegate.h
 qsqlrelationaltablemodel.h
 /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlrelationaltablemodel.h
+<<<<<<< HEAD
+=======
+qsqlresult.h
+/usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlresult.h
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 qsqltablemodel.h
 /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqltablemodel.h
 qtsqlversion.h
@@ -2142,6 +2934,7 @@ qtsqlversion.h
 QtCore/QtCore
 -
 
+<<<<<<< HEAD
 /usr/include/x86_64-linux-gnu/qt5/QtSql/qsql.h
 QtCore/qglobal.h
 -
@@ -2153,20 +2946,39 @@ QtSql/qsql.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldriver.h
+=======
+/usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldatabase.h
+QtSql/qtsqlglobal.h
+-
+QtCore/qstring.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldriver.h
+QtSql/qtsqlglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtCore/qobject.h
 -
 QtCore/qstring.h
 -
 QtCore/qstringlist.h
 -
+<<<<<<< HEAD
 QtSql/qsql.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldriverplugin.h
+=======
+
+/usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldriverplugin.h
+QtSql/qtsqlglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtCore/qplugin.h
 -
 QtCore/qfactoryinterface.h
 -
+<<<<<<< HEAD
 QtSql/qsql.h
 -
 
@@ -2177,23 +2989,51 @@ QtSql/qsql.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlfield.h
+=======
+
+/usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlerror.h
+QtSql/qtsqlglobal.h
+-
+QtCore/qstring.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlfield.h
+QtSql/qtsqlglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtCore/qvariant.h
 -
 QtCore/qstring.h
 -
+<<<<<<< HEAD
 QtSql/qsql.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlindex.h
+=======
+
+/usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlindex.h
+QtSql/qtsqlglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtSql/qsqlrecord.h
 -
 QtCore/qstring.h
 -
+<<<<<<< HEAD
+=======
+QtCore/qvector.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtCore/qlist.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlquery.h
+<<<<<<< HEAD
 QtSql/qsql.h
+=======
+QtSql/qtsqlglobal.h
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 -
 QtSql/qsqldatabase.h
 -
@@ -2201,45 +3041,93 @@ QtCore/qstring.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlquerymodel.h
+<<<<<<< HEAD
+=======
+QtSql/qtsqlglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtCore/qabstractitemmodel.h
 -
 QtSql/qsqldatabase.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlrecord.h
+<<<<<<< HEAD
 QtCore/qstring.h
 -
 QtSql/qsql.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlrelationaldelegate.h
+=======
+QtSql/qtsqlglobal.h
+-
+QtCore/qstring.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlrelationaldelegate.h
+QtSql/qtsqlglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtWidgets/qitemdelegate.h
 -
 QtWidgets/qlistview.h
 -
 QtWidgets/qcombobox.h
 -
+<<<<<<< HEAD
+=======
+QtSql/qsqldriver.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtSql/qsqlrelationaltablemodel.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlrelationaltablemodel.h
+<<<<<<< HEAD
 QtSql/qsqltablemodel.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlresult.h
+=======
+QtSql/qtsqlglobal.h
+-
+QtSql/qsqltablemodel.h
+-
+QtCore/qtypeinfo.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlresult.h
+QtSql/qtsqlglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtCore/qvariant.h
 -
 QtCore/qvector.h
 -
+<<<<<<< HEAD
 QtSql/qsql.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqltablemodel.h
+=======
+
+/usr/include/x86_64-linux-gnu/qt5/QtSql/qsqltablemodel.h
+QtSql/qtsqlglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtSql/qsqldatabase.h
 -
 QtSql/qsqlquerymodel.h
 -
 
+<<<<<<< HEAD
+=======
+/usr/include/x86_64-linux-gnu/qt5/QtSql/qtsqlglobal.h
+QtCore/qglobal.h
+-
+
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 /usr/include/x86_64-linux-gnu/qt5/QtSql/qtsqlversion.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
@@ -2247,12 +3135,22 @@ qapplication.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemdelegate.h
+<<<<<<< HEAD
+=======
+QtWidgets/qtwidgetsglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtCore/qobject.h
 -
 QtWidgets/qstyleoption.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemview.h
+<<<<<<< HEAD
+=======
+QtWidgets/qtwidgetsglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtWidgets/qabstractscrollarea.h
 -
 QtCore/qabstractitemmodel.h
@@ -2263,20 +3161,40 @@ QtWidgets/qabstractitemdelegate.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h
+<<<<<<< HEAD
+=======
+QtWidgets/qtwidgetsglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtWidgets/qframe.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h
+<<<<<<< HEAD
+=======
+QtWidgets/qtwidgetsglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtWidgets/qwidget.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h
+<<<<<<< HEAD
+=======
+QtWidgets/qtwidgetsglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtWidgets/qwidget.h
 -
 QtGui/qvalidator.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
+<<<<<<< HEAD
+=======
+QtWidgets/qtwidgetsglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtCore/qcoreapplication.h
 -
 QtGui/qwindowdefs.h
@@ -2293,6 +3211,11 @@ QtGui/qguiapplication.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcombobox.h
+<<<<<<< HEAD
+=======
+QtWidgets/qtwidgetsglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtWidgets/qwidget.h
 -
 QtWidgets/qabstractitemdelegate.h
@@ -2301,16 +3224,35 @@ QtCore/qabstractitemmodel.h
 -
 QtCore/qvariant.h
 -
+<<<<<<< HEAD
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
+=======
+QtGui/qvalidator.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
+QtWidgets/qtwidgetsglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtWidgets/qwidget.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
+<<<<<<< HEAD
+=======
+QtWidgets/qtwidgetsglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtWidgets/qwidget.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qitemdelegate.h
+<<<<<<< HEAD
+=======
+QtWidgets/qtwidgetsglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtWidgets/qabstractitemdelegate.h
 -
 QtCore/qstring.h
@@ -2321,22 +3263,50 @@ QtCore/qvariant.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlistview.h
+<<<<<<< HEAD
+=======
+QtWidgets/qtwidgetsglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtWidgets/qabstractitemview.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h
+<<<<<<< HEAD
+=======
+QtWidgets/qtwidgetsglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtWidgets/qwidget.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
+<<<<<<< HEAD
 QtCore/qobject.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h
+=======
+QtWidgets/qtwidgetsglobal.h
+-
+QtCore/qobject.h
+-
+QtCore/qalgorithms.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h
+QtWidgets/qtwidgetsglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtWidgets/qabstractslider.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyle.h
+<<<<<<< HEAD
+=======
+QtWidgets/qtwidgetsglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtCore/qobject.h
 -
 QtCore/qrect.h
@@ -2353,6 +3323,13 @@ QtWidgets/qsizepolicy.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyleoption.h
+<<<<<<< HEAD
+=======
+QtWidgets/qtwidgetsglobal.h
+-
+QtCore/qlocale.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtCore/qvariant.h
 -
 QtWidgets/qabstractspinbox.h
@@ -2377,16 +3354,40 @@ QtCore/qabstractitemmodel.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabbar.h
+<<<<<<< HEAD
+=======
+QtWidgets/qtwidgetsglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtWidgets/qwidget.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h
+<<<<<<< HEAD
+=======
+QtWidgets/qtwidgetsglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtWidgets/qwidget.h
 -
 QtGui/qicon.h
 -
 
+<<<<<<< HEAD
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
+=======
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
+QtGui/qtguiglobal.h
+-
+QtWidgets/qtwidgets-config.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
+QtWidgets/qtwidgetsglobal.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 QtGui/qwindowdefs.h
 -
 QtCore/qobject.h
@@ -2426,7 +3427,17 @@ QtXml/qtxmlglobal.h
 QtCore/qstring.h
 -
 
+<<<<<<< HEAD
 /usr/include/x86_64-linux-gnu/qt5/QtXml/qtxmlglobal.h
 QtCore/qglobal.h
 -
+=======
+/usr/include/x86_64-linux-gnu/qt5/QtXml/qtxml-config.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtXml/qtxmlglobal.h
+QtCore/qglobal.h
+-
+QtXml/qtxml-config.h
+-
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68
 

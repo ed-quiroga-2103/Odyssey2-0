@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug/CMakeFiles/XMLManager.dir
+=======
+/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug/CMakeFiles/XMLManager.dir
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68

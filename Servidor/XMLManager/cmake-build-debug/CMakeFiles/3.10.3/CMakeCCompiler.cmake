@@ -1,7 +1,12 @@
 set(CMAKE_C_COMPILER "/usr/bin/cc")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
+<<<<<<< HEAD:Servidor/XMLManager/cmake-build-debug/CMakeFiles/3.9.6/CMakeCCompiler.cmake
 set(CMAKE_C_COMPILER_VERSION "5.4.0")
+=======
+set(CMAKE_C_COMPILER_VERSION "7.3.0")
+set(CMAKE_C_COMPILER_VERSION_INTERNAL "")
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68:Servidor/XMLManager/cmake-build-debug/CMakeFiles/3.10.3/CMakeCCompiler.cmake
 set(CMAKE_C_COMPILER_WRAPPER "")
 set(CMAKE_C_STANDARD_COMPUTED_DEFAULT "11")
 set(CMAKE_C_COMPILE_FEATURES "c_std_90;c_function_prototypes;c_std_99;c_restrict;c_variadic_macros;c_std_11;c_static_assert")
@@ -14,10 +19,18 @@ set(CMAKE_C_SIMULATE_ID "")
 set(CMAKE_C_SIMULATE_VERSION "")
 
 
+<<<<<<< HEAD:Servidor/XMLManager/cmake-build-debug/CMakeFiles/3.9.6/CMakeCCompiler.cmake
 set(CMAKE_AR "/usr/bin/ar")
 set(CMAKE_C_COMPILER_AR "/usr/bin/gcc-ar-5")
 set(CMAKE_RANLIB "/usr/bin/ranlib")
 set(CMAKE_C_COMPILER_RANLIB "/usr/bin/gcc-ranlib-5")
+=======
+
+set(CMAKE_AR "/usr/bin/ar")
+set(CMAKE_C_COMPILER_AR "/usr/bin/gcc-ar-7")
+set(CMAKE_RANLIB "/usr/bin/ranlib")
+set(CMAKE_C_COMPILER_RANLIB "/usr/bin/gcc-ranlib-7")
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68:Servidor/XMLManager/cmake-build-debug/CMakeFiles/3.10.3/CMakeCCompiler.cmake
 set(CMAKE_LINKER "/usr/bin/ld")
 set(CMAKE_COMPILER_IS_GNUCC 1)
 set(CMAKE_C_COMPILER_LOADED 1)
@@ -67,5 +80,9 @@ endif()
 
 
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "gcc;gcc_s;c;gcc;gcc_s")
+<<<<<<< HEAD:Servidor/XMLManager/cmake-build-debug/CMakeFiles/3.9.6/CMakeCCompiler.cmake
 set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib")
+=======
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib")
+>>>>>>> 694297da958cc95162f31d92c237f0ab32108e68:Servidor/XMLManager/cmake-build-debug/CMakeFiles/3.10.3/CMakeCCompiler.cmake
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

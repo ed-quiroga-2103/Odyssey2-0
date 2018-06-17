@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Sql\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Xml\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug"/>
+				<Option working_dir="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/eduardo/Documents/Coding\ stuff/Proyecto\ 3/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eduardo/Documents/Coding\ stuff/Proyecto\ 3/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/eduardo/Documents/Coding\ stuff/Proyecto\ 3/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eduardo/Documents/Coding\ stuff/Proyecto\ 3/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/eduardo/Documents/Coding\ stuff/Proyecto\ 3/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eduardo/Documents/Coding\ stuff/Proyecto\ 3/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/eduardo/Documents/Coding\ stuff/Proyecto\ 3/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eduardo/Documents/Coding\ stuff/Proyecto\ 3/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/isaac/Escritorio/Proyecto\ Programado\ 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isaac/Escritorio/Proyecto\ Programado\ 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isaac/Escritorio/Proyecto\ Programado\ 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isaac/Escritorio/Proyecto\ Programado\ 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug"/>
+				<Option working_dir="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/eduardo/Documents/Coding\ stuff/Proyecto\ 3/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eduardo/Documents/Coding\ stuff/Proyecto\ 3/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/eduardo/Documents/Coding\ stuff/Proyecto\ 3/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eduardo/Documents/Coding\ stuff/Proyecto\ 3/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/isaac/Escritorio/Proyecto\ Programado\ 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isaac/Escritorio/Proyecto\ Programado\ 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isaac/Escritorio/Proyecto\ Programado\ 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isaac/Escritorio/Proyecto\ Programado\ 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/isaac/Escritorio/Proyecto\ Programado\ 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isaac/Escritorio/Proyecto\ Programado\ 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isaac/Escritorio/Proyecto\ Programado\ 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isaac/Escritorio/Proyecto\ Programado\ 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="XMLManager">
-				<Option output="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug/XMLManager" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug"/>
+				<Option output="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug/XMLManager" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -49,34 +49,34 @@
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_SQL_LIB"/>
 					<Add option="-DQT_XML_LIB"/>
-					<Add directory="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/pugixml-1.9"/>
-					<Add directory="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../MySQLConnector"/>
+					<Add directory="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/pugixml-1.9"/>
+					<Add directory="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/../MySQLConnector"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
-					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSql"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtXml"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/eduardo/Documents/Coding\ stuff/Proyecto\ 3/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 XMLManager"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eduardo/Documents/Coding\ stuff/Proyecto\ 3/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/eduardo/Documents/Coding\ stuff/Proyecto\ 3/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eduardo/Documents/Coding\ stuff/Proyecto\ 3/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/isaac/Escritorio/Proyecto\ Programado\ 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 XMLManager"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isaac/Escritorio/Proyecto\ Programado\ 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isaac/Escritorio/Proyecto\ Programado\ 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isaac/Escritorio/Proyecto\ Programado\ 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="XMLManager/fast">
-				<Option output="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug/XMLManager" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug"/>
+				<Option output="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug/XMLManager" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -86,117 +86,111 @@
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_SQL_LIB"/>
 					<Add option="-DQT_XML_LIB"/>
-					<Add directory="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/pugixml-1.9"/>
-					<Add directory="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../MySQLConnector"/>
+					<Add directory="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/pugixml-1.9"/>
+					<Add directory="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/../MySQLConnector"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
-					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSql"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtXml"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/eduardo/Documents/Coding\ stuff/Proyecto\ 3/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 XMLManager/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/eduardo/Documents/Coding\ stuff/Proyecto\ 3/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/eduardo/Documents/Coding\ stuff/Proyecto\ 3/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/eduardo/Documents/Coding\ stuff/Proyecto\ 3/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/isaac/Escritorio/Proyecto\ Programado\ 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 XMLManager/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/isaac/Escritorio/Proyecto\ Programado\ 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/isaac/Escritorio/Proyecto\ Programado\ 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/isaac/Escritorio/Proyecto\ Programado\ 3/Odyssey2-0/Servidor/XMLManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/MySQLConnector/MySQLConnector.cpp">
+		<Unit filename="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/MySQLConnector/MySQLConnector.cpp">
 			<Option target="XMLManager"/>
 		</Unit>
-		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/MySQLConnector/MySQLConnector.h">
+		<Unit filename="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/MySQLConnector/MySQLConnector.h">
 			<Option target="XMLManager"/>
 		</Unit>
-		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLManager.cpp">
+		<Unit filename="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/XMLManager.cpp">
 			<Option target="XMLManager"/>
 		</Unit>
-		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLManager.h">
+		<Unit filename="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/XMLManager.h">
 			<Option target="XMLManager"/>
 		</Unit>
-		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLParts.cpp">
+		<Unit filename="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/XMLParts.cpp">
 			<Option target="XMLManager"/>
 		</Unit>
-		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLParts.h">
+		<Unit filename="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/XMLParts.h">
 			<Option target="XMLManager"/>
 		</Unit>
-		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/main.cpp">
+		<Unit filename="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/main.cpp">
 			<Option target="XMLManager"/>
 		</Unit>
-		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/pugiconfig.hpp">
+		<Unit filename="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/pugiconfig.hpp">
 			<Option target="XMLManager"/>
 		</Unit>
-		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/pugixml.cpp">
+		<Unit filename="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/pugixml.cpp">
 			<Option target="XMLManager"/>
 		</Unit>
-		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/pugixml.hpp">
+		<Unit filename="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/pugixml.hpp">
 			<Option target="XMLManager"/>
 		</Unit>
-		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/CMakeLists.txt">
+		<Unit filename="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+		<Unit filename="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+		<Unit filename="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+		<Unit filename="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+		<Unit filename="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+		<Unit filename="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+		<Unit filename="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+		<Unit filename="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+		<Unit filename="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+		<Unit filename="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+		<Unit filename="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+		<Unit filename="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+		<Unit filename="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
-		</Unit>
-		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake">
+		<Unit filename="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Sql/Qt5SqlConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Sql\"/>
 		</Unit>
-		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Sql/Qt5SqlConfig.cmake">
+		<Unit filename="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Sql\"/>
 		</Unit>
-		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake">
+		<Unit filename="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Xml/Qt5XmlConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Xml\"/>
 		</Unit>
-		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Xml/Qt5XmlConfig.cmake">
+		<Unit filename="/home/isaac/Escritorio/Proyecto Programado 3/Odyssey2-0/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Xml\"/>
 		</Unit>
 	</Project>
