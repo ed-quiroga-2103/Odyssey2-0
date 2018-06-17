@@ -204,6 +204,33 @@ home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/DataManager/DataManager.
 	$(MAKE) -f CMakeFiles/XMLManager.dir/build.make CMakeFiles/XMLManager.dir/home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/DataManager/DataManager.cpp.s
 .PHONY : home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/DataManager/DataManager.cpp.s
 
+home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/HashFunct/HashClass.o: home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/HashFunct/HashClass.cpp.o
+
+.PHONY : home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/HashFunct/HashClass.o
+
+# target to build an object file
+home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/HashFunct/HashClass.cpp.o:
+	$(MAKE) -f CMakeFiles/XMLManager.dir/build.make CMakeFiles/XMLManager.dir/home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/HashFunct/HashClass.cpp.o
+.PHONY : home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/HashFunct/HashClass.cpp.o
+
+home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/HashFunct/HashClass.i: home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/HashFunct/HashClass.cpp.i
+
+.PHONY : home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/HashFunct/HashClass.i
+
+# target to preprocess a source file
+home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/HashFunct/HashClass.cpp.i:
+	$(MAKE) -f CMakeFiles/XMLManager.dir/build.make CMakeFiles/XMLManager.dir/home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/HashFunct/HashClass.cpp.i
+.PHONY : home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/HashFunct/HashClass.cpp.i
+
+home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/HashFunct/HashClass.s: home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/HashFunct/HashClass.cpp.s
+
+.PHONY : home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/HashFunct/HashClass.s
+
+# target to generate assembly for a file
+home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/HashFunct/HashClass.cpp.s:
+	$(MAKE) -f CMakeFiles/XMLManager.dir/build.make CMakeFiles/XMLManager.dir/home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/HashFunct/HashClass.cpp.s
+.PHONY : home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/HashFunct/HashClass.cpp.s
+
 home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/MySQLConnector/MySQLConnector.o: home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/MySQLConnector/MySQLConnector.cpp.o
 
 .PHONY : home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/MySQLConnector/MySQLConnector.o
@@ -303,6 +330,9 @@ help:
 	@echo "... home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/DataManager/DataManager.o"
 	@echo "... home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/DataManager/DataManager.i"
 	@echo "... home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/DataManager/DataManager.s"
+	@echo "... home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/HashFunct/HashClass.o"
+	@echo "... home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/HashFunct/HashClass.i"
+	@echo "... home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/HashFunct/HashClass.s"
 	@echo "... home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/MySQLConnector/MySQLConnector.o"
 	@echo "... home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/MySQLConnector/MySQLConnector.i"
 	@echo "... home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/MySQLConnector/MySQLConnector.s"

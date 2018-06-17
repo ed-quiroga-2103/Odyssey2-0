@@ -18,6 +18,13 @@ private:
     HashClass hasher;
 
 public:
+
+    QSqlDatabase getDB(){
+
+        return connector->getDB();
+
+    }
+
 //----------------------------------------------------------------------------------------------------------
     bool createUser(string username, string name, string password, int age, string favGen, string email);
     bool logUser(string username, string password);

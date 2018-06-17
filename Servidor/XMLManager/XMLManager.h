@@ -16,8 +16,6 @@ using namespace std;
 class XMLManager {
 private:
 
-    MySQLConnector* connector = new MySQLConnector("root", "85452565", "OdServer");
-
     DataManager* dataManager = new DataManager;
 
 //-----------------FALTA-----------------
@@ -27,7 +25,7 @@ private:
 public:
 
     XMLDoc* logInResponse(bool confirm, string username);
-    XMLDoc* signUp(bool confirm);
+    XMLDoc* signIn(bool confirm);
     XMLDoc* searchSongResponse(int opnum, string name);
     XMLDoc* registerSongResponse(bool confirm);
     XMLDoc* deleteSongResponse(bool confirm);

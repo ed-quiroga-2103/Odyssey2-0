@@ -345,7 +345,7 @@ XMLDoc *XMLManager::signIn(bool confirm){
 
 pugi::xml_node XMLManager::getSongs(pugi::xml_node songsNode, int page) {
 
-    QSqlQuery qry(connector->getDB());
+    QSqlQuery qry(dataManager->getDB());
 
     int i = 0;
 
@@ -380,7 +380,7 @@ pugi::xml_node XMLManager::getSongs(pugi::xml_node songsNode, int page) {
 
 pugi::xml_node XMLManager::getUserData(pugi::xml_node user, string username){
 
-    QSqlQuery qry(connector->getDB());
+    QSqlQuery qry(dataManager->getDB());
 
     std::stringstream stream;
 
@@ -439,7 +439,7 @@ XMLDoc *XMLManager::searchSongResponse(int opnum, string name) {
 
 pugi::xml_node XMLManager::searchSongByAlbum(pugi::xml_node song, string data) {
 
-    QSqlQuery qry(connector->getDB());
+    QSqlQuery qry(dataManager->getDB());
 
     std::stringstream stream;
 
@@ -468,7 +468,7 @@ pugi::xml_node XMLManager::searchSongByAlbum(pugi::xml_node song, string data) {
 
 pugi::xml_node XMLManager::searchSongByArtist(pugi::xml_node song, string data) {
 
-    QSqlQuery qry(connector->getDB());
+    QSqlQuery qry(dataManager->getDB());
 
     std::stringstream stream;
 
@@ -497,7 +497,7 @@ pugi::xml_node XMLManager::searchSongByArtist(pugi::xml_node song, string data) 
 
 pugi::xml_node XMLManager::searchSongByName(pugi::xml_node song, string data) {
 
-    QSqlQuery qry(connector->getDB());
+    QSqlQuery qry(dataManager->getDB());
 
     std::stringstream stream;
 

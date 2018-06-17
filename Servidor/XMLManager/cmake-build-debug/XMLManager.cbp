@@ -52,6 +52,7 @@
 					<Add directory="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/pugixml-1.9"/>
 					<Add directory="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../MySQLConnector"/>
 					<Add directory="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../DataManager"/>
+					<Add directory="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../HashFunct"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
@@ -90,6 +91,7 @@
 					<Add directory="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/pugixml-1.9"/>
 					<Add directory="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../MySQLConnector"/>
 					<Add directory="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../DataManager"/>
+					<Add directory="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../HashFunct"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
@@ -118,6 +120,12 @@
 			<Option target="XMLManager"/>
 		</Unit>
 		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/DataManager/DataManager.h">
+			<Option target="XMLManager"/>
+		</Unit>
+		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/HashFunct/HashClass.cpp">
+			<Option target="XMLManager"/>
+		</Unit>
+		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/HashFunct/HashClass.h">
 			<Option target="XMLManager"/>
 		</Unit>
 		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/MySQLConnector/MySQLConnector.cpp">

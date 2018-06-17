@@ -6,6 +6,58 @@
 
 #IncludeRegexTransform: 
 
+../../DataManager/DataManager.h
+HashClass.h
+-
+MySQLConnector.h
+../../DataManager/MySQLConnector.h
+string
+../../DataManager/string
+
+../../DataManager/HashClass.h
+string
+../../DataManager/string
+
+../../MySQLConnector/MySQLConnector.h
+string
+../../MySQLConnector/string
+QtSql
+-
+QtCore/QCoreApplication
+-
+QtSql/qsqldatabase.h
+-
+QApplication
+-
+QDebug
+-
+
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/DataManager/DataManager.cpp
+sstream
+-
+iostream
+-
+DataManager.h
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/DataManager/DataManager.h
+
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/DataManager/DataManager.h
+HashClass.h
+-
+MySQLConnector.h
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/DataManager/MySQLConnector.h
+string
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/DataManager/string
+
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/HashFunct/HashClass.cpp
+sstream
+-
+HashClass.h
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/HashFunct/HashClass.h
+
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/HashFunct/HashClass.h
+string
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/HashFunct/string
+
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/MySQLConnector/MySQLConnector.cpp
 MySQLConnector.h
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/MySQLConnector/MySQLConnector.h
@@ -43,6 +95,8 @@ XMLManager.h
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLManager.h
 
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLManager.h
+DataManager.h
+-
 XMLParts.h
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLParts.h
 string
