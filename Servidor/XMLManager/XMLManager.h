@@ -5,6 +5,7 @@
 #ifndef XMLMANAGER_XMLMANAGER_H
 #define XMLMANAGER_XMLMANAGER_H
 
+#include <DataManager.h>
 #include "XMLParts.h"
 #include "string"
 #include "../MySQLConnector/MySQLConnector.h"
@@ -16,6 +17,8 @@ class XMLManager {
 private:
 
     MySQLConnector* connector = new MySQLConnector("root", "85452565", "OdServer");
+
+    DataManager* dataManager = new DataManager;
 
 //-----------------FALTA-----------------
     pugi::xml_node getNotifications();

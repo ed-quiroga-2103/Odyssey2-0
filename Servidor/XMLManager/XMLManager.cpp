@@ -7,6 +7,7 @@
 #include "XMLManager.h"
 
 using Node = pugi::xml_node;
+
 // METODO PRINCIPAL //
 void *XMLManager::handleClientMessage(string data) {
     int operation_number = getOpNum(data);
@@ -102,7 +103,7 @@ int XMLManager::getOpNum(string str) {
     pugi::xml_document doc;
     pugi::xml_parse_result result = doc.load_string(str.c_str());
 
-    return std::stoi(doc.child("op").text().get());
+    return std::stoi(doc.child("root").child("op").text().get());
 }
 void *XMLManager::readUpdateMetadata(string data) {
 
@@ -262,6 +263,9 @@ void *XMLManager::readSingUp(string data){
     std::cout <<"The age is:"<<age<< std::endl;
     std::cout <<"The password is:"<< password << std::endl;
     std::cout <<"The email is:"<< email << std::endl;
+
+    dataManager->createUser(username,name,password,stoi(age),"None",email);
+
 }
 void *XMLManager::readSingIn(string data){
     pugi::xml_document doc;

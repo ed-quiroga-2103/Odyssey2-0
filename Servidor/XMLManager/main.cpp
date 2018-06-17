@@ -14,10 +14,11 @@ int main(int argc, char *argv[]) {
 
     XMLManager xml;
 
+    XMLDoc doc("root");
 
-    XMLDoc* doc = xml.getPaginatedSongs(0);
+    doc.newChild("op", 1);
 
-    std::cout << doc->toString();
+    std::cout << doc.toString();
 
     return 0;
 }
