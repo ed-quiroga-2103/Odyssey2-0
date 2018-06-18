@@ -22,8 +22,8 @@ bool DataManager::createUser(string username, string name, string password, int 
 
         query.exec(command.c_str());
 
-        std::cout << createFriendsTable(username);
-        std::cout << createNotsTable(username);
+        createFriendsTable(username);
+        createNotsTable(username);
 
         return true;
     }
@@ -99,6 +99,31 @@ bool DataManager::userExists(string username) {
         return true;
 
     }
+
+}
+
+bool DataManager::updateUser(string username, string password) {
+
+    if(userExists(username)){
+
+        QSqlDatabase db = connector->getDB();
+
+        QSqlQuery query(db);
+
+
+        string a = "UPDATE users set password = \"";
+
+        string f = "\" WHERE username = \"";
+        string end = "\";";
+
+        string command = a+hasher.hash(password)+f+username+end;
+
+        query.exec(command.c_str());
+
+        return true;
+    }
+
+    return false;
 
 }
 

@@ -63,11 +63,12 @@
         <entry file="file://$PROJECT_DIR$/DataManager.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="322">
-              <caret line="157" column="0" lean-forward="false" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+              <caret line="182" column="0" lean-forward="false" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
               <folding>
                 <element signature="e#0#2#0" expanded="true" />
                 <element signature="e#42#60#0" expanded="true" />
-                <element signature="e#3083#3576#0" expanded="true" />
+                <element signature="e#1867#2322#0" expanded="true" />
+                <element signature="e#3514#4007#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,10 +106,10 @@
         <option value="$PROJECT_DIR$/UserManager.h" />
         <option value="$PROJECT_DIR$/SortingFuncts.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/DataManager.cpp" />
         <option value="$PROJECT_DIR$/../MySQLConnector/MySQLConnector.cpp" />
         <option value="$PROJECT_DIR$/../MySQLConnector/MySQLConnector.h" />
         <option value="$PROJECT_DIR$/DataManager.h" />
+        <option value="$PROJECT_DIR$/DataManager.cpp" />
       </list>
     </option>
   </component>
@@ -275,7 +276,8 @@
           <folding>
             <element signature="e#0#2#0" expanded="true" />
             <element signature="e#42#60#0" expanded="true" />
-            <element signature="e#3083#3576#0" expanded="true" />
+            <element signature="e#1867#2322#0" expanded="true" />
+            <element signature="e#3514#4007#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -318,7 +320,8 @@
           <folding>
             <element signature="e#0#2#0" expanded="true" />
             <element signature="e#42#60#0" expanded="true" />
-            <element signature="e#3083#3576#0" expanded="true" />
+            <element signature="e#1867#2322#0" expanded="true" />
+            <element signature="e#3514#4007#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -435,11 +438,12 @@
     <entry file="file://$PROJECT_DIR$/DataManager.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
-          <caret line="157" column="0" lean-forward="false" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+          <caret line="182" column="0" lean-forward="false" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
           <folding>
             <element signature="e#0#2#0" expanded="true" />
             <element signature="e#42#60#0" expanded="true" />
-            <element signature="e#3083#3576#0" expanded="true" />
+            <element signature="e#1867#2322#0" expanded="true" />
+            <element signature="e#3514#4007#0" expanded="true" />
           </folding>
         </state>
       </provider>
