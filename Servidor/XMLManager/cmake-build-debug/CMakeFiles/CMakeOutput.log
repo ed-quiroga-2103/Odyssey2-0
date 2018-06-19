@@ -615,3 +615,31 @@ make[1]: Leaving directory '/home/eduardo/Documents/Coding stuff/Proyecto 3/Serv
     Feature record: CXX_FEATURE:0cxx_variable_templates
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the Q_WS_X11 exist passed with the following output:
+Change Dir: /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_91c91/fast"
+/usr/bin/make -f CMakeFiles/cmTC_91c91.dir/build.make CMakeFiles/cmTC_91c91.dir/build
+make[1]: Entering directory '/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_91c91.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4  -std=gnu++11 -o CMakeFiles/cmTC_91c91.dir/CheckSymbolExists.cxx.o -c "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx"
+Linking CXX executable cmTC_91c91
+/home/eduardo/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91c91.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_91c91.dir/CheckSymbolExists.cxx.o  -o cmTC_91c91 
+make[1]: Leaving directory '/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+File /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

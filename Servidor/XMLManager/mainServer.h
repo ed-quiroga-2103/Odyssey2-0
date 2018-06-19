@@ -50,8 +50,8 @@ public:
     }
 
 private:
-        int port;
-        XMLManager* SERVER = new XMLManager();
+    int port;
+    XMLManager* SERVER = new XMLManager();
 
 };
 

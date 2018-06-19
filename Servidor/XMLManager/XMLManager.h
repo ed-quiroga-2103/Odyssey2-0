@@ -18,10 +18,11 @@ private:
 
     DataManager* dataManager = new DataManager;
 
-//-----------------FALTA-----------------
     pugi::xml_node getNotifications(pugi::xml_node node,string username );
     pugi::xml_node getFriends(pugi::xml_node node,string username);
-//---------------------------------------
+
+
+
 public:
 
     XMLDoc* logInResponse(bool confirm, string username);

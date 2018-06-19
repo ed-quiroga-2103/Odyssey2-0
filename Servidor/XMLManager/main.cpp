@@ -16,6 +16,15 @@ int main(int argc, char *argv[]) {
     mainServer server(8081);
 
     server.runServer();
+/*
+    XMLManager man;
+
+    std::cout <<  man.logInResponse(true, "user")->toString();
+/*
+    DataManager mn;
+
+    std::cout << mn.addFriend("user", "TestUser2");
+*/
 
     return 0;
 }

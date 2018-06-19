@@ -491,10 +491,12 @@ pugi::xml_node XMLManager::getSongs(pugi::xml_node songsNode, int page) {
         string album = qry.value(2).toString().toStdString();
         string lyrics = qry.value(3).toString().toStdString();
 
-        currentNode.append_child("song").append_child(pugi::node_pcdata).set_value(song.c_str());
+
+        currentNode.append_child("name").append_child(pugi::node_pcdata).set_value(song.c_str());
         currentNode.append_child("artist").append_child(pugi::node_pcdata).set_value(artist.c_str());
         currentNode.append_child("album").append_child(pugi::node_pcdata).set_value(album.c_str());
         currentNode.append_child("lyrics").append_child(pugi::node_pcdata).set_value(lyrics.c_str());
+        currentNode.append_child("rating").append_child(pugi::node_pcdata).set_value(qry.value(5).toString().toStdString().c_str());
 
         i++;
     }
@@ -521,7 +523,7 @@ pugi::xml_node XMLManager::getUserData(pugi::xml_node user, string username){
         string usrname = qry.value(0).toString().toStdString();
         string name = qry.value(1).toString().toStdString();
         string pass = qry.value(2).toString().toStdString();
-        string email = qry.value(6).toString().toStdString();
+        string email = qry.value(5).toString().toStdString();
         string age = qry.value(3).toString().toStdString();
 
         user.append_child("username").append_child(pugi::node_pcdata).set_value(usrname.c_str());
@@ -531,7 +533,6 @@ pugi::xml_node XMLManager::getUserData(pugi::xml_node user, string username){
         user.append_child("age").append_child(pugi::node_pcdata).set_value(age.c_str());
 
     }
-    cout<<"AHHHHHH:"<<user<<endl;
 
     return user;
 

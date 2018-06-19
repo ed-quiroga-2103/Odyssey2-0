@@ -276,6 +276,7 @@ XMLManager: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.5.1
 XMLManager: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.5.1
 XMLManager: /usr/lib/x86_64-linux-gnu/libQt5Sql.so.5.5.1
 XMLManager: /usr/lib/x86_64-linux-gnu/libQt5Xml.so.5.5.1
+XMLManager: /usr/lib/x86_64-linux-gnu/libQt5Network.so.5.5.1
 XMLManager: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.5.1
 XMLManager: CMakeFiles/XMLManager.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable XMLManager"

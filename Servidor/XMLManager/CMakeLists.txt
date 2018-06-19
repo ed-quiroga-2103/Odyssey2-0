@@ -7,12 +7,14 @@ include_directories(pugixml-1.9)
 include_directories(../MySQLConnector)
 include_directories(../DataManager)
 include_directories(../HashFunct)
+include_directories(../Estructuras)
 
 find_package(Qt5Core REQUIRED)
 find_package(Qt5Widgets REQUIRED)
 find_package(Qt5Gui REQUIRED)
 find_package(Qt5Sql REQUIRED)
 find_package(Qt5Xml REQUIRED)
+find_package(Qt5Network REQUIRED)
 
 
 add_executable(XMLManager
@@ -21,9 +23,10 @@ add_executable(XMLManager
         pugixml.cpp
         mainServer.cpp
         mainServer.h
+        ../Estructuras/
         ../MySQLConnector/MySQLConnector.cpp ../MySQLConnector/MySQLConnector.h
         ../DataManager/DataManager.cpp ../DataManager/DataManager.h
         ../HashFunct/HashClass.cpp ../HashFunct/HashClass.h
         main.cpp XMLManager.cpp XMLManager.h XMLParts.cpp XMLParts.h)
 
-target_link_libraries(XMLManager Qt5::Core Qt5::Widgets Qt5::Gui Qt5::Sql Qt5::Xml)
+target_link_libraries(XMLManager Qt5::Core Qt5::Widgets Qt5::Gui Qt5::Sql Qt5::Xml Qt5::Network)

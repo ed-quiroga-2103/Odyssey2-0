@@ -5,7 +5,7 @@
 		<Option title="XMLManager"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Sql\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Xml\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Sql\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Xml\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug"/>
@@ -49,10 +49,12 @@
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_SQL_LIB"/>
 					<Add option="-DQT_XML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
 					<Add directory="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/pugixml-1.9"/>
 					<Add directory="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../MySQLConnector"/>
 					<Add directory="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../DataManager"/>
 					<Add directory="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../HashFunct"/>
+					<Add directory="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../Estructuras"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
@@ -60,6 +62,7 @@
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSql"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtXml"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -88,10 +91,12 @@
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_SQL_LIB"/>
 					<Add option="-DQT_XML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
 					<Add directory="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/pugixml-1.9"/>
 					<Add directory="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../MySQLConnector"/>
 					<Add directory="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../DataManager"/>
 					<Add directory="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../HashFunct"/>
+					<Add directory="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../Estructuras"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
@@ -99,6 +104,7 @@
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSql"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtXml"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -116,6 +122,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor">
+			<Option target="XMLManager"/>
+		</Unit>
 		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/DataManager/DataManager.cpp">
 			<Option target="XMLManager"/>
 		</Unit>
@@ -220,6 +229,12 @@
 		</Unit>
 		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Xml/Qt5XmlConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Xml\"/>
+		</Unit>
+		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
