@@ -42,7 +42,7 @@ int mainServer::runServer(){
     int socket_desc , sock , clientLen , read_size;
     struct sockaddr_in server , client;
     char client_message[200]={0};
-    char message[5000] = {0};
+    char message[1000000] = {0};
 
     //Create socket
     socket_desc = SocketCreate();
@@ -100,7 +100,7 @@ int mainServer::runServer(){
 
         std::cout << client_message;
 
-        string reply = SERVER->handleClientMessage(client_message);
+        string reply = remove_extra_whitespaces(SERVER->handleClientMessage(client_message));
 
         strcpy(message, reply.c_str());
 

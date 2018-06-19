@@ -30,7 +30,7 @@ public class xmlManager {
             InputSource is = new InputSource();
             is.setCharacterStream(new StringReader(xml));
 
-            Document doc = db.parse(is);
+                Document doc = db.parse(is);
             NodeList nodes = doc.getElementsByTagName("user");
 
             for (int i = 0; i < nodes.getLength(); i++) {

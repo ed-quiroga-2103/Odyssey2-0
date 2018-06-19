@@ -34,7 +34,6 @@
     	<notification>
       	<from>someone</from>
         <message>something</message>
-        <name>somename</name>													// name of the song
       </notification>
       ...
     </notifications>
@@ -206,6 +205,9 @@
   	<friend>
     	<name>somename</name>
     </friend>
+	<user>
+        <username>username</username>
+    </user>
   </data>
 
 
@@ -237,6 +239,9 @@
   	<friend>
     	<name>somename</name>
     </friend>
+	<user>
+        <username>username</username>
+    </user>
   </data>
 
 
@@ -366,6 +371,7 @@
 
 	<op>#</op>																							// operation # = 13 (new)
 <user>
+    <username>username</username>
     <password>somepassword</password>
     <image64>someimage<image64>
   </user>

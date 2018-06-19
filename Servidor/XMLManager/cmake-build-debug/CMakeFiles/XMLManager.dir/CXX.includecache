@@ -161,6 +161,8 @@ arpa/inet.h
 -
 unistd.h
 -
+sstream
+-
 string
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/string
 XMLManager.h

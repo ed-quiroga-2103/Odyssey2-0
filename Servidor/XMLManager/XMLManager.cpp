@@ -363,6 +363,7 @@ string XMLManager::readSingIn(string data){
     std::cout <<"The password is:"<<password<< std::endl;
 
     if(dataManager->logUser(username,password)){
+        cout<<"El usuario ya esta registrado"<< endl;
 
         return logInResponse(true, username)->toString();
 
@@ -433,7 +434,10 @@ XMLDoc *XMLManager::logInResponse(bool confirm, string username) {
 
         Node user = data.append_child("user");
 
+
         this->getUserData(user, username);
+
+
 
         Node nots = data.append_child("notifications");
 
@@ -442,6 +446,9 @@ XMLDoc *XMLManager::logInResponse(bool confirm, string username) {
         Node songs = data.append_child("songs");
 
         this->getSongs(songs,0);
+
+        Node friends = data.append_child("friends");
+        this->getFriends(friends, username);
 
     }
     else{
@@ -514,14 +521,17 @@ pugi::xml_node XMLManager::getUserData(pugi::xml_node user, string username){
         string usrname = qry.value(0).toString().toStdString();
         string name = qry.value(1).toString().toStdString();
         string pass = qry.value(2).toString().toStdString();
-        string email = qry.value(3).toString().toStdString();
+        string email = qry.value(6).toString().toStdString();
+        string age = qry.value(3).toString().toStdString();
 
         user.append_child("username").append_child(pugi::node_pcdata).set_value(usrname.c_str());
         user.append_child("name").append_child(pugi::node_pcdata).set_value(name.c_str());
         user.append_child("password").append_child(pugi::node_pcdata).set_value(pass.c_str());
         user.append_child("email").append_child(pugi::node_pcdata).set_value(email.c_str());
+        user.append_child("age").append_child(pugi::node_pcdata).set_value(age.c_str());
 
     }
+    cout<<"AHHHHHH:"<<user<<endl;
 
     return user;
 

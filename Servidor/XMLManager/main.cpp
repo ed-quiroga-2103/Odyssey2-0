@@ -15,5 +15,7 @@ int main(int argc, char *argv[]) {
 
     mainServer server(8081);
 
+    server.runServer();
+
     return 0;
 }
