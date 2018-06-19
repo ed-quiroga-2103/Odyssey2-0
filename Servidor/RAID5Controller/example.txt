@@ -1,0 +1,41 @@
+#include <iostream>
+#include <QString>
+#include <QDir>
+#include <fstream>
+#include "RAID5Controller/RAID5Controller.h"
+
+int main() {
+
+    /**
+     * Crea las carpetas que van a simular los discos del RAID5 en el sistema de archivos
+     */
+
+    RAID5Controller* raid5 = new RAID5Controller();
+    
+    raid5->createVirtualDisks();
+
+    /**
+     * Simulamos la escritura de una cancion
+     */
+
+    std::string fileName = "Dimelo"; ///Hay que cambiarlo
+
+    raid5->write(fileName);
+
+    std::cout << "Escritura completada" << std::endl;
+
+    /**
+      * Recuperacion de la informacion original
+     */
+
+    bool dataPerdida = raid5->seek(fileName);
+
+    if (dataPerdida == false) {
+
+        raid5->read(fileName);
+
+        std::cout << "Lectura completada";
+
+    }
+
+}
