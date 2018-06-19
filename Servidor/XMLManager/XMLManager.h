@@ -19,8 +19,8 @@ private:
     DataManager* dataManager = new DataManager;
 
 //-----------------FALTA-----------------
-    pugi::xml_node getNotifications();
-    pugi::xml_node getFriends();
+    pugi::xml_node getNotifications(pugi::xml_node node,string username );
+    pugi::xml_node getFriends(pugi::xml_node node,string username);
 //---------------------------------------
 public:
 
@@ -29,8 +29,12 @@ public:
     XMLDoc* searchSongResponse(int opnum, string name);
     XMLDoc* registerSongResponse(bool confirm);
     XMLDoc* deleteSongResponse(bool confirm);
+    XMLDoc* confirmationResponse(bool confirm, int opnum);
 
-    XMLDoc* getPaginatedSongs(int page);
+    XMLDoc* getPaginatedSongs(int page, int opnum);
+    XMLDoc* addFriendResponse(string username, bool confirm);
+    XMLDoc* deleteFriendResponse(string username, bool confirm);
+
 
     pugi::xml_node getUserData(pugi::xml_node user, string username);
     pugi::xml_node getSongs(pugi::xml_node songsNode, int page);
@@ -40,22 +44,22 @@ public:
 
     //Metodos de lectura entrantes del cliente //
 
-    void *handleClientMessage(string data);
+    string handleClientMessage(string data);
     int getOpNum(string str);
-    void*readSingIn(string data);
-    void *readSingUp(string data);
-    void *readSearchSong(string data);
-    void *readRegisterSong(string data);
-    void *readDeleteSong(string data);
-    void *readRegisterPlaylist(string data);
-    void *readDeletePlaylist(string data);
-    void *readAddFriend(string data);
-    void *readDeleteFriend(string data);
-    void *readRateSong(string data);
-    void *readSendChunks(string data);
-    void *readSongListPaginacion(string data);
-    void *readUpdateMetadata(string data);
-    void *readUpdateUserData(string data);
+    string readSingIn(string data);
+    string readSingUp(string data);
+    string readSearchSong(string data);
+    string readRegisterSong(string data);
+    string readDeleteSong(string data);
+    string readRegisterPlaylist(string data);
+    string readDeletePlaylist(string data);
+    string readAddFriend(string data);
+    string readDeleteFriend(string data);
+    string readRateSong(string data);
+    //string readSendChunks(string data);
+    string readSongListPaginacion(string data);
+    string readUpdateMetadata(string data);
+    string readUpdateUserData(string data);
 
 
 };

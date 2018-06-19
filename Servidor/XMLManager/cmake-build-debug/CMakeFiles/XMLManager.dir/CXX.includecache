@@ -141,6 +141,30 @@ XMLParts.h
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLParts.h
 XMLManager.h
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLManager.h
+mainServer.h
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/mainServer.h
+
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/mainServer.cpp
+iostream
+-
+mainServer.h
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/mainServer.h
+
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/mainServer.h
+stdio.h
+-
+string.h
+-
+sys/socket.h
+-
+arpa/inet.h
+-
+unistd.h
+-
+string
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/string
+XMLManager.h
+/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/XMLManager.h
 
 /home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/pugiconfig.hpp
 

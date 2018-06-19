@@ -238,6 +238,29 @@ bool DataManager::songExists(string songname) {
 
 }
 
+bool DataManager::newNotification(string username, string reciever, string msg){
+
+    if(userExists(reciever)){
+
+        QSqlQuery qr(connector->getDB());
+
+        string a = "INSERT INTO `";
+        string b = "-nots` VALUES(\"";
+        string c = "\", \"";
+        string d = "\");";
+
+        string command = a+username+b+reciever+c+msg+d;
+
+        qr.exec(command.c_str());
+
+        return true;
+
+    }
+
+    return false;
+
+}
+
 bool DataManager::createFriendsTable(string username) {
 
     if(userExists(username)){
@@ -268,7 +291,7 @@ bool DataManager::createNotsTable(string username) {
         QSqlQuery qr(connector->getDB());
 
         string a = "CREATE TABLE `";
-        string b = "-nots` (sender VARCHAR(30) NOT NULL, msg VARCHAR(30) NOT NULL, song VARCHAR(30) NOT NULL);";
+        string b = "-nots` (sender VARCHAR(30) NOT NULL, msg VARCHAR(30) NOT NULL);";
 
         string command = a+username+b;
 

@@ -31,6 +31,8 @@ public:
     bool addFriend(string username, string friendUsername);
     bool deleteFriend(string username, string friendUsername);
     bool updateUser(string username,string password);
+
+    bool newNotification(string username, string sender, string msg);
 //----------------------------------------------------------------------------------------------------------
     bool editSong(string name, string newName, string artist, string album, string lyrics);
     bool addSong(string name, string artist, string album, string lyrics);

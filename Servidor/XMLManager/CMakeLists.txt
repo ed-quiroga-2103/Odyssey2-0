@@ -19,6 +19,8 @@ add_executable(XMLManager
         pugiconfig.hpp
         pugixml.hpp
         pugixml.cpp
+        mainServer.cpp
+        mainServer.h
         ../MySQLConnector/MySQLConnector.cpp ../MySQLConnector/MySQLConnector.h
         ../DataManager/DataManager.cpp ../DataManager/DataManager.h
         ../HashFunct/HashClass.cpp ../HashFunct/HashClass.h

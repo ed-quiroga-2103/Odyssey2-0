@@ -285,6 +285,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/XMLManager.dir/build.make CMakeFiles/XMLManager.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+mainServer.o: mainServer.cpp.o
+
+.PHONY : mainServer.o
+
+# target to build an object file
+mainServer.cpp.o:
+	$(MAKE) -f CMakeFiles/XMLManager.dir/build.make CMakeFiles/XMLManager.dir/mainServer.cpp.o
+.PHONY : mainServer.cpp.o
+
+mainServer.i: mainServer.cpp.i
+
+.PHONY : mainServer.i
+
+# target to preprocess a source file
+mainServer.cpp.i:
+	$(MAKE) -f CMakeFiles/XMLManager.dir/build.make CMakeFiles/XMLManager.dir/mainServer.cpp.i
+.PHONY : mainServer.cpp.i
+
+mainServer.s: mainServer.cpp.s
+
+.PHONY : mainServer.s
+
+# target to generate assembly for a file
+mainServer.cpp.s:
+	$(MAKE) -f CMakeFiles/XMLManager.dir/build.make CMakeFiles/XMLManager.dir/mainServer.cpp.s
+.PHONY : mainServer.cpp.s
+
 pugixml.o: pugixml.cpp.o
 
 .PHONY : pugixml.o
@@ -339,6 +366,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... mainServer.o"
+	@echo "... mainServer.i"
+	@echo "... mainServer.s"
 	@echo "... pugixml.o"
 	@echo "... pugixml.i"
 	@echo "... pugixml.s"

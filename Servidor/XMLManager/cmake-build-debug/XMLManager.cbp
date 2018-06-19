@@ -149,6 +149,12 @@
 		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/main.cpp">
 			<Option target="XMLManager"/>
 		</Unit>
+		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/mainServer.cpp">
+			<Option target="XMLManager"/>
+		</Unit>
+		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/mainServer.h">
+			<Option target="XMLManager"/>
+		</Unit>
 		<Unit filename="/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/pugiconfig.hpp">
 			<Option target="XMLManager"/>
 		</Unit>

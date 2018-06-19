@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/HashFunct/HashClass.cpp" "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug/CMakeFiles/XMLManager.dir/home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/HashFunct/HashClass.cpp.o"
   "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/MySQLConnector/MySQLConnector.cpp" "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug/CMakeFiles/XMLManager.dir/home/eduardo/Documents/Coding_stuff/Proyecto_3/Servidor/MySQLConnector/MySQLConnector.cpp.o"
   "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/main.cpp" "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug/CMakeFiles/XMLManager.dir/main.cpp.o"
+  "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/mainServer.cpp" "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug/CMakeFiles/XMLManager.dir/mainServer.cpp.o"
   "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/pugixml.cpp" "/home/eduardo/Documents/Coding stuff/Proyecto 3/Servidor/XMLManager/cmake-build-debug/CMakeFiles/XMLManager.dir/pugixml.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
