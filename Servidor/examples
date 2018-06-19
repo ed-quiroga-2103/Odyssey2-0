@@ -1,0 +1,106 @@
+#include <iostream>
+#include <vector>
+#include "Tree/UsersTree.h"
+#include "Sorting/Sort.h"
+#include "Searching/AVLTree.h"
+
+int main()
+{
+
+    ///
+    /// Prueba del árbol de usuarios
+    ///
+
+    /*UsersTree* tree = new UsersTree();
+    tree->insert(tree->root, "Samu");
+    tree->insert(tree->root, "Poncio");
+    tree->insert(tree->root, "Xavi Alonso");
+    tree->insert(tree->root, "Maroto");
+    tree->insert(tree->root, "Carlitos");
+    tree->insert(tree->root, "JoseManu46");
+    tree->insert(tree->root, "Gerwin");
+
+    tree->inorder(tree->root);*/
+
+    ///
+    /// Prueba del los algoritmos de ordenamiento
+    ///
+
+    ///
+    /// Prueba del QuickSort
+    ///
+
+    /*Sort* Sorter = new Sort();
+    std::vector<std::string> vector;
+    vector.push_back("Samu");
+    vector.push_back("Poncio");
+    vector.push_back("Xavi Alonso");
+    vector.push_back("Maroto");
+    vector.push_back("Carlitos");
+    vector.push_back("JoseManu46");
+    vector.push_back("Gerwin");
+    int n = vector.size();
+    std::string array[vector.size()];
+    std::copy( vector.begin(), vector.end(), array );
+    Sorter->quickSort(array,0,n-1);
+    for(int i = 0; i< n ; i++){
+        std::cout << array[i] << std::endl;
+    }*/
+
+    ///
+    /// Prueba del RadixSort
+    ///
+
+    /*Sort* Sorter = new Sort();
+    std::vector<std::string> vector = {"Samu","Poncio","Xavi Alonso","Maroto","Carlitos","JoseManu46","Gerwin"};
+    std::vector<size_t> pos = Sorter->radixSort(vector);
+    for (auto i : pos)
+        std::cout << vector[i] << std::endl;*/
+
+    ///
+    /// Prueba del BubbleSort
+    ///
+
+    /*Sort* Sorter = new Sort();
+    std::vector<std::string> vector = {"Samu","Poncio","Xavi Alonso","Maroto","Carlitos","JoseManu46","Gerwin"};
+    int n = vector.size();
+    std::string array[vector.size()];
+    std::copy( vector.begin(), vector.end(), array );
+    Sorter->bubbleSort(array,n);
+    for(int i = 0; i< n ; i++){
+        std::cout << array[i] << std::endl;
+    }*/
+
+    ///
+    /// Prueba de las estructuras de búsqueda
+    ///
+
+    ///
+    /// Prueba del arbol AVL
+    ///
+
+    /*AVLTree* tree = new AVLTree();
+    AVLTree::Node* root = NULL;
+    AVLTree::Node* nodeSearched = NULL;
+
+    root = tree->insert(root, "Samu");
+    root = tree->insert(root, "Poncio");
+    root = tree->insert(root, "Xavi Alonso");
+    root = tree->insert(root, "Maroto");
+    root = tree->insert(root, "Carlitos");
+    root = tree->insert(root, "JoseManu46");
+    root = tree->insert(root, "Gerwin");
+    std::cout << "Preorder traversal of the constructed AVL tree is \n";
+    tree->preOrder(root);
+
+    root = tree->deleteNode(root, "Maroto");
+    printf("\nPreorder traversal after deletion of 10 \n");
+    tree->preOrder(root);
+
+    nodeSearched = tree->search(root, "Poncio");
+    nodeSearched->key = "Pilato";
+    printf("\nPreorder traversal after modification of Poncio to Pilato \n");
+    tree->preOrder(root);*/
+
+    return 0;
+}
